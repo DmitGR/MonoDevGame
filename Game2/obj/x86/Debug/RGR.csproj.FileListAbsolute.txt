@@ -1,0 +1,970 @@
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Level1.txt
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Level2.txt
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Armor.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\armor2.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\attack.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Backround.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\BigBlock1.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Circle.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\damaged.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\death.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\fall.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\fly.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\healEffect.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\idle.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\jump.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\jumpAttack.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\MenuPause.wav
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\sit.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\sitAttack.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\sword.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\test.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Walk.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\armorDamage.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\armorPickUp.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\CheckPoinActivated.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\GameTheme.wma
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\GameTheme.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\heartCollect.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\ItemPickUp.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\LevelComplete.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\MainMenuTheme.wma
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\MainMenuTheme.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuBack.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuChoose.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuExit.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuPause.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuPush.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuSelect.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\miscDamage1.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\miscDamage2.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\miscDamage3.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\sword.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\Backround1.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\Backround3.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\BackroundComplete.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\BackroundOptions.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\BackroundPause.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block1.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block2.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block3.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block4.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block5.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block6.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block7.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block8.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block9.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\exit.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\MiscBlock1.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\MiscBlock2.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\MiscTourch.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\SpikeBlock1.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\SpikeBlock2.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\bat.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\monkey.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\mud.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\raven.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\RedSkeleton.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\Smoke.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\wolf.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\attack.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\damaged.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\death.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\fall.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\idle.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\jump.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\jumpAttack.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\run.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\sit.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\sitAttack.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Items\armor.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Items\checkpoint0.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Items\checkpoint1.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Items\health.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Items\jug.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\ArmorHud.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\gameOver.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\healthbar.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Hud.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\spriteFont.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Game2.exe
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Game2.pdb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\MonoGame.Framework.dll
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\SharpDX.dll
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\SharpDX.XInput.dll
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\SharpDX.RawInput.dll
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\MonoGame.Framework.xml
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\SharpDX.xml
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\SharpDX.XInput.xml
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\SharpDX.RawInput.xml
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\obj\x86\Debug\Game2.exe
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\obj\x86\Debug\Game2.pdb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Armor.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\armor2.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\attack.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Backround.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\BigBlock1.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Circle.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\damaged.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\death.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\fall.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\fly.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\healEffect.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\idle.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\jump.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\jumpAttack.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\MenuPause.wav
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\sit.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\sitAttack.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\sword.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\test.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Walk.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\armorDamage.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\armorPickUp.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\CheckPoinActivated.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\GameTheme.wma
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\GameTheme.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\heartCollect.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\ItemPickUp.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\LevelComplete.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\MainMenuTheme.wma
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\MainMenuTheme.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuBack.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuChoose.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuExit.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuPause.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuPush.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuSelect.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\miscDamage1.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\miscDamage2.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\miscDamage3.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\sword.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\Backround1.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\Backround3.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\BackroundComplete.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\BackroundOptions.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\BackroundPause.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block1.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block2.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block3.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block4.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block5.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block6.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block7.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block8.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block9.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\exit.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\MiscBlock1.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\MiscBlock2.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\MiscTourch.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\SpikeBlock1.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\SpikeBlock2.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\bat.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\monkey.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\mud.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\raven.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\RedSkeleton.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\Smoke.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\wolf.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\attack.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\damaged.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\death.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\fall.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\idle.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\jump.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\jumpAttack.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\run.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\sit.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\sitAttack.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Items\armor.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Items\checkpoint0.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Items\checkpoint1.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Items\health.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Items\jug.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\ArmorHud.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\gameOver.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\healthbar.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Hud.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\spriteFont.xnb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Game.exe
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Game.pdb
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\MonoGame.Framework.dll
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\SharpDX.dll
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\SharpDX.XInput.dll
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\SharpDX.RawInput.dll
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\MonoGame.Framework.xml
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\SharpDX.xml
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\SharpDX.XInput.xml
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\SharpDX.RawInput.xml
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\obj\x86\Debug\Game.exe
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\obj\x86\Debug\Game.pdb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\obj\x86\Debug\Game.exe
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\obj\x86\Debug\Game.pdb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Level1.txt
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Level2.txt
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Armor.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\armor2.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\attack.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Backround.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\BigBlock1.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Circle.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\damaged.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\death.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\fall.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\fly.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\healEffect.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\idle.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\jump.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\jumpAttack.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\sit.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\sitAttack.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\sword.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\test.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Walk.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\armorDamage.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\armorPickUp.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\CheckPoinActivated.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\GameTheme.wma
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\GameTheme.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\heartCollect.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\ItemPickUp.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\LevelComplete.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\MainMenuTheme.wma
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\MainMenuTheme.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuBack.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuChoose.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuExit.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuPause.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuPush.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuSelect.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\miscDamage1.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\miscDamage2.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\miscDamage3.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\sword.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\Backround1.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\Backround3.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\BackroundComplete.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\BackroundOptions.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\BackroundPause.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block1.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block2.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block3.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block4.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block5.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block6.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block7.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block8.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block9.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\exit.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\MiscBlock1.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\MiscBlock2.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\MiscTourch.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\SpikeBlock1.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\SpikeBlock2.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\bat.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\monkey.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\mud.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\raven.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\RedSkeleton.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\Smoke.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\wolf.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\attack.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\damaged.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\death.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\fall.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\idle.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\jump.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\jumpAttack.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\run.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\sit.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\sitAttack.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Items\armor.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Items\checkpoint0.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Items\checkpoint1.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Items\health.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Items\jug.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\ArmorHud.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\gameOver.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\healthbar.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Hud.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\spriteFont.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\MenuPause.wav
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Game.exe
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Game.pdb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\obj\x86\Debug\RGR.csprojResolveAssemblyReference.cache
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\obj\x86\Debug\RGR.csprojResolveAssemblyReference.cache
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Maps\Level1.txt
+D:\IFBS\1 course\Semestr 2\Labs\RGR\Game2\bin\Windows\x86\Debug\Content\Maps\Level2.txt
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\obj\x86\Debug\Game.exe
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\obj\x86\Debug\Game.pdb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Maps\Level1.txt
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Maps\Level2.txt
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\attack.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Backround.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\BigBlock1.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\damaged.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\death.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\fall.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\fly.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\idle.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\jump.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\jumpAttack.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\MenuPause.wav
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\sit.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\sitAttack.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\sword.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Walk.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\armorDamage.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\armorPickUp.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\GameTheme.wma
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\GameTheme.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\heartCollect.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\ItemPickUp.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\LevelComplete.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\MainMenuTheme.wma
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\MainMenuTheme.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuBack.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuChoose.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuExit.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuPause.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuPush.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuSelect.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\miscDamage1.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\miscDamage2.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\miscDamage3.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\sword.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\Backround1.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\Backround3.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\BackroundComplete.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\BackroundOptions.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\BackroundPause.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block1.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block2.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block3.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block4.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block5.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block6.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block7.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block8.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block9.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\exit.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\MiscBlock1.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\MiscBlock2.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\MiscTourch.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\SpikeBlock1.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\SpikeBlock2.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\bat.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\monkey.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\mud.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\raven.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\RedSkeleton.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\Smoke.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\wolf.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\attack.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\damaged.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\death.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\fall.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\idle.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\jump.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\jumpAttack.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\run.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\sit.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\sitAttack.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Items\armor.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Items\checkpoint0.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Items\checkpoint1.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Items\health.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Items\jug.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\ArmorHud.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\gameOver.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\healthbar.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\spriteFont.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Game.exe
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Game.pdb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\MonoGame.Framework.dll
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.dll
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.XInput.dll
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.RawInput.dll
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\MonoGame.Framework.xml
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.xml
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.XInput.xml
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.RawInput.xml
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\obj\x86\Debug\RGR.csprojResolveAssemblyReference.cache
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\armorOff.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\fly.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\miscDamage4.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\die.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\obj\x86\Debug\Game.exe
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\obj\x86\Debug\Game.pdb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Maps\Level1.txt
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Maps\Level2.txt
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Maps\Level3.txt
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Armor.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\armor2.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\attack.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Backround.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\BigBlock1.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Body.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Circle.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\damaged.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\death.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\fall.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\FBody.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Fire.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\FireAttack.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\fly.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\healEffect.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\idle.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\jump.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\jumpAttack.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\MenuPause.wav
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\sit.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\sitAttack.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\sword.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\test.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Walk.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Sounds\armorDamage.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Sounds\armorOff.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Sounds\armorPickUp.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Sounds\CheckPoinActivated.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Sounds\die.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Sounds\fly.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Sounds\gameOver.wma
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Sounds\gameOver.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Sounds\GameTheme.wma
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Sounds\GameTheme.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Sounds\heartCollect.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Sounds\ItemPickUp.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Sounds\LevelComplete.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Sounds\MainMenuTheme.wma
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Sounds\MainMenuTheme.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuBack.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuChoose.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuExit.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuPause.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuPush.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuSelect.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Sounds\miscDamage1.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Sounds\miscDamage2.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Sounds\miscDamage3.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Sounds\miscDamage4.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Sounds\sword.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\Backround1.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\Backround3.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\BackroundComplete.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\BackroundOptions.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\BackroundOver.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\BackroundPause.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block1.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block2.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block3.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block4.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block5.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block6.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block7.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block8.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block9.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\exit.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\MiscBlock1.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\MiscBlock2.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\MiscTourch.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\SpikeBlock1.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\SpikeBlock2.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\bat.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\monkey.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\mud.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\raven.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\RedSkeleton.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\Smoke.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\wolf.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\attack.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\damaged.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\death.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\fall.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\idle.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\jump.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\jumpAttack.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\run.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\sit.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\sitAttack.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Items\armor.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Items\checkpoint0.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Items\checkpoint1.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Items\health.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Items\jug.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\armor.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\ArmorHud.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\gameOver.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\healthbar.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\Hud.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Content\spriteFont.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Game.exe
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\Game.pdb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\MonoGame.Framework.dll
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\SharpDX.dll
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\SharpDX.XInput.dll
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\SharpDX.RawInput.dll
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\MonoGame.Framework.xml
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\SharpDX.xml
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\SharpDX.XInput.xml
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\SharpDX.RawInput.xml
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR Full\Game2\obj\x86\Debug\RGR.csprojResolveAssemblyReference.cache
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\gameOver.wma
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\gameOver.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\BackroundOver.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\armor.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\Circle.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\test.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Hud.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\splash.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Items\potion.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\splashHud.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\CheckPointActivated.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\potionActivated.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\potionOff.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\potionPickUp.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\splash.xnb
+D:\IFBS\1 course\Semestr 2\Labs\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\splashDamage.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Maps\Level1.txt
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Maps\Level2.txt
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\attack.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Backround.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\BigBlock1.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\damaged.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\death.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\fall.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\fly.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\idle.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\jump.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\jumpAttack.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\MenuPause.wav
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\sit.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\sitAttack.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\sword.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Walk.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\armorDamage.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\armorOff.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\armorPickUp.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\CheckPointActivated.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\die.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\fly.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\gameOver.wma
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\gameOver.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\GameTheme.wma
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\GameTheme.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\heartCollect.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\ItemPickUp.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\LevelComplete.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\MainMenuTheme.wma
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\MainMenuTheme.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuBack.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuChoose.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuExit.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuPause.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuPush.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuSelect.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\miscDamage1.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\miscDamage2.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\miscDamage3.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\miscDamage4.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\potionActivated.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\potionOff.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\potionPickUp.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\splash.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\splashDamage.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\sword.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\Backround1.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\Backround3.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\BackroundComplete.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\BackroundOptions.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\BackroundOver.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\BackroundPause.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block1.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block2.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block3.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block4.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block5.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block6.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block7.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block8.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block9.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\exit.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\MiscBlock1.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\MiscBlock2.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\MiscTourch.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\SpikeBlock1.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\SpikeBlock2.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\bat.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\monkey.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\mud.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\raven.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\RedSkeleton.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\Smoke.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\wolf.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\attack.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\damaged.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\death.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\fall.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\idle.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\jump.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\jumpAttack.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\run.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\sit.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\sitAttack.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Items\armor.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Items\checkpoint0.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Items\checkpoint1.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Items\health.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Items\jug.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Items\potion.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\armor.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\ArmorHud.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\Circle.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\gameOver.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\healthbar.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\splash.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\splashHud.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\test.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Hud.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Content\spriteFont.xnb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Game.exe
+F:\!! RGR\Game2\bin\Windows\x86\Debug\Game.pdb
+F:\!! RGR\Game2\bin\Windows\x86\Debug\MonoGame.Framework.dll
+F:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+F:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.dll
+F:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+F:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+F:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+F:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+F:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.XInput.dll
+F:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+F:\!! RGR\Game2\bin\Windows\x86\Debug\MonoGame.Framework.xml
+F:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+F:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.xml
+F:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+F:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+F:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+F:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+F:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.XInput.xml
+F:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+F:\!! RGR\Game2\obj\x86\Debug\RGR.csprojResolveAssemblyReference.cache
+F:\!! RGR\Game2\obj\x86\Debug\Game.exe
+F:\!! RGR\Game2\obj\x86\Debug\Game.pdb
+G:\!! RGR\Game2\obj\x86\Debug\Game.exe
+G:\!! RGR\Game2\obj\x86\Debug\Game.pdb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Maps\Level1.txt
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Maps\Level2.txt
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\attack.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Backround.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\BigBlock1.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\damaged.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\death.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\fall.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\fly.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\idle.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\jump.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\jumpAttack.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\MenuPause.wav
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\sit.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\sitAttack.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\sword.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Walk.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\armorDamage.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\armorOff.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\armorPickUp.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\CheckPointActivated.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\die.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\fly.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\gameOver.wma
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\gameOver.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\GameTheme.wma
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\GameTheme.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\heartCollect.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\ItemPickUp.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\LevelComplete.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\MainMenuTheme.wma
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\MainMenuTheme.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuBack.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuChoose.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuExit.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuPause.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuPush.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuSelect.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\miscDamage1.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\miscDamage2.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\miscDamage3.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\miscDamage4.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\potionActivated.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\potionOff.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\potionPickUp.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\splash.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\splashDamage.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\sword.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\Backround1.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\Backround3.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\BackroundComplete.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\BackroundOptions.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\BackroundOver.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\BackroundPause.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block1.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block2.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block3.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block4.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block5.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block6.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block7.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block8.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block9.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\exit.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\MiscBlock1.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\MiscBlock2.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\MiscTourch.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\SpikeBlock1.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\SpikeBlock2.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\bat.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\monkey.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\mud.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\raven.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\RedSkeleton.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\Smoke.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\wolf.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\attack.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\damaged.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\death.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\fall.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\idle.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\jump.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\jumpAttack.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\run.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\sit.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\sitAttack.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Items\armor.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Items\checkpoint0.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Items\checkpoint1.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Items\health.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Items\jug.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Items\potion.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\armor.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\ArmorHud.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\Circle.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\gameOver.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\healthbar.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\splash.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\splashHud.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\test.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Hud.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Content\spriteFont.xnb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Game.exe
+G:\!! RGR\Game2\bin\Windows\x86\Debug\Game.pdb
+G:\!! RGR\Game2\bin\Windows\x86\Debug\MonoGame.Framework.dll
+G:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+G:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.dll
+G:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+G:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+G:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+G:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+G:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.XInput.dll
+G:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+G:\!! RGR\Game2\bin\Windows\x86\Debug\MonoGame.Framework.xml
+G:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+G:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.xml
+G:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+G:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+G:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+G:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+G:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.XInput.xml
+G:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+G:\!! RGR\Game2\obj\x86\Debug\RGR.csprojResolveAssemblyReference.cache
+G:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.RawInput.dll
+G:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.RawInput.xml
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Maps\Level2.txt
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\attack.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Backround.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\BigBlock1.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\damaged.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\death.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\fall.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\fly.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\idle.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\jump.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\jumpAttack.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\MenuPause.wav
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\sit.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\sitAttack.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\sword.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Walk.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\armorDamage.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\armorOff.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\armorPickUp.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\CheckPointActivated.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\die.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\fly.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\gameOver.wma
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\gameOver.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\GameTheme.wma
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\GameTheme.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\heartCollect.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\ItemPickUp.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\LevelComplete.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\MainMenuTheme.wma
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\MainMenuTheme.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuBack.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuChoose.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuExit.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuPause.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuPush.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuSelect.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\miscDamage1.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\miscDamage2.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\miscDamage3.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\miscDamage4.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\potionActivated.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\potionOff.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\potionPickUp.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\splash.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\splashDamage.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Sounds\sword.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\Backround1.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\Backround3.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\BackroundComplete.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\BackroundOptions.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\BackroundOver.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\BackroundPause.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block1.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block2.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block3.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block4.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block5.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block6.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block7.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block8.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block9.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\exit.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\MiscBlock1.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\MiscBlock2.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\MiscTourch.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\SpikeBlock1.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\SpikeBlock2.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\bat.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\monkey.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\mud.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\raven.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\RedSkeleton.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\Smoke.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\wolf.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\attack.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\damaged.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\death.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\fall.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\idle.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\jump.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\jumpAttack.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\run.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\sit.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\sitAttack.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Items\armor.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Items\checkpoint0.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Items\checkpoint1.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Items\health.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Items\jug.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Items\potion.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\armor.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\ArmorHud.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\Circle.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\gameOver.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\healthbar.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\splash.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\splashHud.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\test.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Hud.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\spriteFont.xnb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Content\Maps\Level1.txt
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Game.exe
+E:\!! RGR\Game2\bin\Windows\x86\Debug\Game.pdb
+E:\!! RGR\Game2\bin\Windows\x86\Debug\MonoGame.Framework.dll
+E:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+E:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.dll
+E:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+E:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+E:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+E:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+E:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.XInput.dll
+E:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+E:\!! RGR\Game2\bin\Windows\x86\Debug\MonoGame.Framework.xml
+E:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+E:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.xml
+E:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+E:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+E:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+E:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+E:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.XInput.xml
+E:\!! RGR\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+E:\!! RGR\Game2\obj\x86\Debug\RGR.csprojResolveAssemblyReference.cache
+E:\!! RGR\Game2\obj\x86\Debug\Game.exe
+E:\!! RGR\Game2\obj\x86\Debug\Game.pdb

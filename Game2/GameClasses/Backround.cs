@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Game2.GameClasses
+namespace RGR.GameClasses
 {
     class Backround
     {
@@ -27,6 +27,7 @@ namespace Game2.GameClasses
     }
     class Scrolling : Backround
     {
+        const int Speed = 2;
         public Scrolling(Texture2D texture, Rectangle rect) : base (texture,rect)
         {
             this.texture = texture;
@@ -34,7 +35,7 @@ namespace Game2.GameClasses
         }
         public void Update()
         {
-            rect.X -= 2;
+            rect.X -= Speed;
         }
     }
 }

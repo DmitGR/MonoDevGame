@@ -1,19 +1,23 @@
-﻿using Game2.GameClasses;
-using Game2.MenuComponents;
-using Game2.Screens;
-using Microsoft.Xna.Framework;
+﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
-using System.Collections.Generic;
 using Microsoft.Xna.Framework.Media;
+using RGR.GameClasses;
+using RGR.MenuComponents;
+using RGR.Screens;
 
-namespace Game2
+namespace RGR
 {
     /// <summary>
     /// This is the main type for your game.
     /// </summary>
     public class Main : Game
     {
+
+        #region Fields
+
+        Logic logic;
+
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
         SpriteFont hudFont;
@@ -33,11 +37,9 @@ namespace Game2
         Camera camera;
         Map map;
 
-        int Score;
         int Level;
         int HealthPoint;
 
-        Texture2D back;
         Vector2 backpos;
 
         Song GameTheme;
@@ -51,28 +53,27 @@ namespace Game2
         Options options;
         GameOver gameOver;
         LevelComplete levelComplete;
-
-        Backround test;
-
+        MenuState.GameState CurrentGameState;
 
         MouseState mouseState;
 
+        bool Info;
 
+        private bool CanCompleteLevel;
 
-        MenuState.GameState CurrentGameState = MenuState.GameState.MainMenu;
-
-
-
+        const int BlockWidth = 48;
+        const int BlockHeight = 32;
+        const int ScorePosSet = 10;
+        #endregion
 
         public Main()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
-            ScreenWidth = graphics.PreferredBackBufferWidth = 1280; // ширина
-            ScreenHeight = graphics.PreferredBackBufferHeight = 720; // высота
-            graphics.IsFullScreen = false; // полноэкранный режим
-            
-
+            ScreenWidth = graphics.PreferredBackBufferWidth = 1280; // Width
+            ScreenHeight = graphics.PreferredBackBufferHeight = 720; // Height
+            graphics.IsFullScreen = false; //SceenMode
+            CurrentGameState = MenuState.GameState.MainMenu;
         }
 
 
@@ -85,19 +86,22 @@ namespace Game2
         /// 
         protected override void Initialize()
         {
-            // camera = new Camera2D();
-            MediaPlayer.Volume = 0f;
+            MediaPlayer.Volume = 0.01f;
+            Info = false;
             options = new Options(graphics);
             gameOver = new GameOver(graphics);
             levelComplete = new LevelComplete(graphics);
             map = new Map(graphics.GraphicsDevice.Viewport);
             player = new Player(Vector2.Zero);
-            Level = 2;
+            Level = 1;
             HealthPoint = 3;
-            player.Health = new HealthBar(5);
+            player.Health = new HealthBar(HealthPoint);
             player.ArmorHud = new ArmorHud();
+            player.SplashHud = new SplashHud();
             mainmenu = new MainMenu(graphics);
             pause = new Pause(graphics);
+            logic = new Logic(graphics.GraphicsDevice);
+
             base.Initialize();
         }
 
@@ -110,9 +114,11 @@ namespace Game2
             player = new Player(map.Start);
             player.Health = new HealthBar(HP);
             player.ArmorHud = new ArmorHud();
+            player.SplashHud = new SplashHud();
             levelComplete = new LevelComplete(graphics);
             mainmenu = new MainMenu(graphics);
             pause = new Pause(graphics);
+            logic = new Logic(graphics.GraphicsDevice);
             base.Initialize();
         }
 
@@ -122,13 +128,10 @@ namespace Game2
         /// </summary>
         protected override void LoadContent()
         {
-
+            if(Info)
             IsMouseVisible = true;
             menuBatch = spriteBatch;
             pause.Load(Content);
-            player.Health.Load(Content);
-            player.ArmorHud.Load(Content);
-            Score = 0;
             player.Load(Content);
             mainmenu.Load(Content);
             options.Load(Content);
@@ -136,10 +139,9 @@ namespace Game2
             gameOver.Load(Content);
             hudFont = Content.Load<SpriteFont>("Hud");
             Map.Content = Content;
-            BlockSize = new Vector2(48, 32);
+            BlockSize = new Vector2(BlockWidth, BlockHeight);
             death = new Animation(Content.Load<Texture2D>("Textures/Hero/death"), 65, 0.8f, false);
-
-
+            CanCompleteLevel = true;
 
             GameTheme = Content.Load<Song>("Sounds/GameTheme");
             camera = new Camera(GraphicsDevice.Viewport);
@@ -148,6 +150,7 @@ namespace Game2
 
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
+            logic.Load(Content);
 
         }
 
@@ -172,38 +175,31 @@ namespace Game2
             switch (CurrentGameState)
             {
                 case MenuState.GameState.NewGame:
-                    // Initialize();
-                    StartGame(Level, HealthPoint);
-                    // options.Level = Level;
                     Level = options.Level;
+                    StartGame(Level, options.HealthPoint);
                     options.HealthPoint = HealthPoint;
-                    // map.Generate(level, BlockSize);
                     MediaPlayer.Stop();
                     CurrentGameState = MenuState.GameState.Playing;
                     MediaPlayer.Play(GameTheme);
-
+                    if (CurrentGameState == MenuState.GameState.Playing)
+                        logic.Update(map, player, camera, gameTime);
                     break;
                 case MenuState.GameState.Playing:
-                    if (Keyboard.GetState().IsKeyDown(Keys.Escape))
-                        CurrentGameState = MenuState.GameState.Pause;
-                    if (player.HasDamaged || Keyboard.GetState().IsKeyDown(Keys.H))
-                        CurrentGameState = MenuState.GameState.GameOver;
+                    CurrentGameState = logic.GameState(CurrentGameState);
+                    logic.Update(map, player, camera, gameTime);
                     pauseSound = true;
-
-                    MediaPlayer.IsRepeating = true;
-
                     break;
                 case MenuState.GameState.Options:
                     CurrentGameState = options.Update();
                     Level = options.Level;
                     HealthPoint = options.HealthPoint;
                     break;
-                case MenuState.GameState.LevelSelect:
-                    break;
                 case MenuState.GameState.LevelComplete:
-                    CurrentGameState = levelComplete.Update(Score);
+                    CurrentGameState = levelComplete.Update(logic.Score);
+                    options.Level = logic.Level;
                     break;
                 case MenuState.GameState.MainMenu:
+                    options.Level = Level;
                     pauseSound = true;
                     CurrentGameState = mainmenu.Update();
                     break;
@@ -225,90 +221,13 @@ namespace Game2
                 default:
                     break;
             }
-            if (CurrentGameState == MenuState.GameState.GameOver && !gameOver.Over)
-            {
-                animationSprite.PlayAnimation(death);
-            }
-            else animationSprite.PlayAnimation(null);
+   
+        if (CurrentGameState == MenuState.GameState.GameOver && !gameOver.Over)
+           {
+               animationSprite.PlayAnimation(death);
+           }
+           else animationSprite.PlayAnimation(null);
             #endregion
-
-            if (Keyboard.GetState().IsKeyDown(Keys.Space))
-                CurrentGameState = MenuState.GameState.Playing;
-            if (CurrentGameState == MenuState.GameState.Playing)
-            {
-                if (Keyboard.GetState().IsKeyDown(Keys.P))
-                    CurrentGameState = MenuState.GameState.Pause;
-                mouseState = Mouse.GetState();
-
-                #region Map Collision
-                foreach (Block block in map.Blocks)
-                {
-                    if (player.Rectangle.X >= camera.Center.X - graphics.GraphicsDevice.Viewport.Width && player.Rectangle.X <= camera.Center.X + graphics.GraphicsDevice.Viewport.Width
-                        && player.Rectangle.Y <= camera.Center.Y + graphics.GraphicsDevice.Viewport.Height && player.Rectangle.Y >= camera.Center.Y - graphics.GraphicsDevice.Viewport.Height)
-                    {
-                        player.Collision(block, map.Width, map.Height);
-                        if (block is Exit && player.Rectangle.Intersects(block.Rectangle))
-                        {
-                            if (Score < 50)
-                            { spriteBatch.Begin(); spriteBatch.DrawString(hudFont, "Not Yet!", new Vector2(block.Rectangle.Center.X, block.Rectangle.Top), Color.DarkRed); spriteBatch.End(); }
-                            else
-                            {
-                                Level++;
-                                MediaPlayer.Pause();
-                                levelComplete.PlaySound();
-                                CurrentGameState = MenuState.GameState.LevelComplete;
-                            }
-                        }
-                    }
-                }
-                    foreach (Enemy enemy in map.Enemys)
-                {
-                    if (enemy.Rectangle.X >= camera.Center.X - graphics.GraphicsDevice.Viewport.Width && enemy.Rectangle.X <= camera.Center.X + graphics.GraphicsDevice.Viewport.Width 
-                        && enemy.Rectangle.Y <= camera.Center.Y + graphics.GraphicsDevice.Viewport.Height && enemy.Rectangle.Y >= camera.Center.Y - graphics.GraphicsDevice.Viewport.Height)
-                    {
-                        enemy.Update();
-                        player.Collision(enemy, gameTime);
-                        if (enemy.CanGetScore)
-                            Score += enemy.Score;
-
-                    }
-
-
-                }
-                foreach (Item item in map.Items)
-                {
-                    item.Update(player.Rectangle);
-                    if (item.IsPicked && item.CanPicked)
-                    {
-                        if (item is Health)
-                            player.Health.Points++;                      
-                        if (item is Jug)
-                            Score += 100;
-                        if (item is Armor) { 
-                            player.GetArmored = true;}
-                        item.CanPicked = false;
-                    }
-                }
-
-                foreach (CheckPoint checkPoint in map.ChekPoints)
-                {
-                    checkPoint.Update();
-                    player.Collision(checkPoint);
-                }
-                map.EnemyCollision(camera.Center);
-                #endregion
-
-                camera.Update(player.Position, map.Width, map.Height);
-                player.Health.Update(camera, ScreenWidth, ScreenHeight);
-                player.ArmorHud.Update(camera, ScreenWidth, ScreenHeight);
-                player.Update(gameTime);
-                player.mouseDebug(new Vector2((camera.Center.X - ScreenWidth / 2 + mouseState.X), (camera.Center.Y - ScreenHeight / 2 + mouseState.Y)));
-            }
-
-            //camera.Update(player.Position);
-
-            // TODO: Add your update logic here
-
             base.Update(gameTime);
         }
 
@@ -318,7 +237,6 @@ namespace Game2
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {     
-           // GraphicsDevice.Clear(Color.Black);
             spriteBatch.Begin();
             GraphicsDevice.Clear(Color.Black);
           
@@ -326,13 +244,8 @@ namespace Game2
 
             switch (CurrentGameState)
             {
-                case MenuState.GameState.Playing:
-                    
-                    break;
                 case MenuState.GameState.Options:
                     options.Draw(spriteBatch);
-                    break;
-                case MenuState.GameState.LevelSelect:
                     break;
                 case MenuState.GameState.LevelComplete:
                     levelComplete.Draw(spriteBatch);
@@ -340,15 +253,12 @@ namespace Game2
                 case MenuState.GameState.MainMenu:
                     mainmenu.Draw(spriteBatch);
                     break;
-                case MenuState.GameState.GameOver:
-               
+                case MenuState.GameState.GameOver:            
                     gameOver.Draw(spriteBatch);
                     if(!gameOver.Over)
-                    animationSprite.Draw(gameTime, spriteBatch, new Vector2(ScreenWidth/2- player.Rectangle.Width*4, ScreenHeight/2 - player.Rectangle.Height/2), SpriteEffects.None);
-
+                    animationSprite.Draw(gameTime, spriteBatch, new Vector2(ScreenWidth/2- player.Rectangle.Width*4, ScreenHeight/2 - player.Rectangle.Height/2), SpriteEffects.None,0);
                     break;
-                case MenuState.GameState.Pause:
-                    
+                case MenuState.GameState.Pause:                
                     pause.Draw(spriteBatch);
                     break;
                 case MenuState.GameState.Exit:
@@ -363,54 +273,56 @@ namespace Game2
             if (CurrentGameState == MenuState.GameState.Playing)
             {
                 GraphicsDevice.Clear(Color.Cyan);
-                spriteBatch.Begin(SpriteSortMode.Deferred, BlendState.AlphaBlend, null, null, null, null, camera.Transform);
+                spriteBatch.Begin(SpriteSortMode.FrontToBack, BlendState.AlphaBlend, null, null, null, null, camera.Transform);
                 map.Draw(spriteBatch, gameTime, camera.Center);
                 player.Draw(gameTime, spriteBatch);
-                player.Health.Draw(spriteBatch);
-                player.ArmorHud.Draw(spriteBatch);
+
                 DrawHud();
+                if (!CanCompleteLevel)
+                {
+                    spriteBatch.DrawString(hudFont, "Not Enough Score!", new Vector2(camera.Center.X - ScreenWidth / 10, camera.Center.Y - ScreenHeight / 2 + ScreenHeight / 9), Color.Red, 0f, Vector2.Zero, 2f, SpriteEffects.None, 0f);
+                    spriteBatch.DrawString(hudFont, "Not Enough Score!", new Vector2(camera.Center.X - ScreenWidth / 10 + 2f, camera.Center.Y - ScreenHeight / 2 + ScreenHeight / 9 + 2f), Color.Black, 0f, Vector2.Zero, 2f, SpriteEffects.None, 0f);
+
+                }
                 spriteBatch.End();
           
             }
             base.Draw(gameTime);
         }
 
-
-
          private void DrawHud()
         {
-            Rectangle titleSafeArea = GraphicsDevice.Viewport.TitleSafeArea;
-            Vector2 hudLocation = new Vector2(titleSafeArea.X, titleSafeArea.Y);
+            player.Health.Draw(spriteBatch);
+            player.ArmorHud.Draw(spriteBatch);
+            player.SplashHud.Draw(spriteBatch);
             Vector2 center = new Vector2(ScreenWidth / 2, ScreenHeight / 2);
 
-            string ScoreString = "Score: " + Score;
-            Vector2 ScorePos = new Vector2(camera.Center.X - ScreenWidth / 2 + 10, camera.Center.Y - ScreenHeight / 2 + 10);
+            string ScoreString = "Score: " + logic.Score;
+            Vector2 ScorePos = new Vector2(camera.Center.X - ScreenWidth / 2 + ScorePosSet, camera.Center.Y - ScreenHeight / 2 + ScorePosSet);
             DrawShadowedString(hudFont,ScoreString, ScorePos,Color.White );
+            #region debug
+            if (Info)
+            {
 
+                string timeString = "Pos: " + (int)player.Position.X + " : " + (int)player.Position.Y;
+                string camtpos = "Camera Pos: " + camera.Center.X + " : " + camera.Center.Y;
+                string rectpos = "Rect Pos: " + (int)player.Rectangle.X + " : " + player.Rectangle.Y;
+                string texttpos = "Info X : " + (camera.Center.X - ScreenWidth / 2 + mouseState.X) + " Y: " + (camera.Center.Y - ScreenHeight / 2 + mouseState.Y);
+                var strpos = new Vector2(camera.Center.X - ScreenWidth / 2, camera.Center.Y + ScreenHeight / 2 - 20);
 
+                DrawShadowedString(hudFont, timeString, strpos, Color.Red);
 
-            string timeString = "Pos: " + (int)player.Position.X  + " : " + (int)player.Position.Y;
-            string camtpos = "Camera Pos: " + camera.Center.X + " : " + camera.Center.Y;
-            string rectpos = "Rect Pos: " + (int)player.Rectangle.X + " : " + player.Rectangle.Y;
-            string texttpos = "Info X : " + (camera.Center.X - ScreenWidth/2  + mouseState.X) + " Y: " + (camera.Center.Y - ScreenHeight/2 + mouseState.Y );
-            var strpos = new Vector2(camera.Center.X - ScreenWidth/2 , camera.Center.Y + ScreenHeight/2-20);
-
-
-
-
-            DrawShadowedString(hudFont, timeString, strpos, Color.Red);
-
-            DrawShadowedString(hudFont, camtpos, strpos - new Vector2(0,20), Color.Red);
-            DrawShadowedString(hudFont, rectpos, strpos - new Vector2(0, 40), Color.Red);
-            DrawShadowedString(hudFont, texttpos, strpos - new Vector2(0, 60), Color.Red);
+                DrawShadowedString(hudFont, camtpos, strpos - new Vector2(0, 20), Color.Red);
+                DrawShadowedString(hudFont, rectpos, strpos - new Vector2(0, 40), Color.Red);
+                DrawShadowedString(hudFont, texttpos, strpos - new Vector2(0, 60), Color.Red);
+            }
+            #endregion
         }
 
         private void DrawShadowedString(SpriteFont font, string value, Vector2 position, Color color)
         {
-            spriteBatch.DrawString(font, value, position + new Vector2(1.0f, 1.0f), Color.Black);
-            spriteBatch.DrawString(font, value, position, color);
+            spriteBatch.DrawString(font, value, position + new Vector2(1.2f, 1.2f), Color.Black , 0f, Vector2.Zero , 1f, SpriteEffects.None, 0.9f);
+            spriteBatch.DrawString(font, value, position, color, 0f, Vector2.Zero, 1f, SpriteEffects.None, 1f);
         }
-
-
     }
 }

@@ -1,4 +1,4 @@
-﻿using Game2.MenuComponents;
+﻿using RGR.MenuComponents;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
@@ -6,9 +6,9 @@ using Microsoft.Xna.Framework.Input;
 using System.Collections.Generic;
 using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Media;
-using Game2.GameClasses;
+using RGR.GameClasses;
 
-namespace Game2.Screens
+namespace RGR.Screens
 {
     public class Pause
     {
@@ -33,7 +33,6 @@ namespace Game2.Screens
 
         public void Load(ContentManager Content)
         {
-           // Backroud = Content.Load<Texture2D>("Textures/Backrounds/BackroundPause");
             backround = new Backround(Content.Load<Texture2D>("Textures/Backrounds/BackroundPause"), new Rectangle(0, 0, graphicsDevice.PreferredBackBufferWidth, graphicsDevice.PreferredBackBufferHeight));
             select = Content.Load<SoundEffect>("Sounds/MenuSelect");
             push = Content.Load<SoundEffect>("Sounds/MenuPush");
@@ -46,13 +45,12 @@ namespace Game2.Screens
             size = new Vector2(graphicsDevice.PreferredBackBufferWidth / 16, graphicsDevice.PreferredBackBufferHeight / 16);
             Vector2 center = new Vector2(graphicsDevice.PreferredBackBufferWidth / 2, graphicsDevice.PreferredBackBufferHeight / 2);
 
-            objects.Add(new MenuObject(/*new Vector2(center.X - size.X, center.Y - size.Y*3)*/ new Rectangle((int)(center.X - size.X), (int)(center.Y - size.Y * 2), (int)size.X, (int)size.Y), "Resume"));
+            objects.Add(new MenuObject(new Rectangle((int)(center.X - size.X), (int)(center.Y - size.Y * 2), (int)size.X, (int)size.Y), "Resume"));
             objects.Add(new MenuObject(new Rectangle((int)(center.X - size.X), (int)(center.Y - size.Y * 1), (int)size.X, (int)size.Y), "Main Menu"));
             foreach (MenuObject obj in objects)
             {
                 obj.Load(Content);
             }
-            //  objects[0].Selected = true;
             CanChange = false;
             SelecRect = new Rectangle((int)(center.X - size.X), (int)(center.Y - size.Y * 2), (int)size.X, (int)size.Y);
         }
@@ -114,15 +112,12 @@ namespace Game2.Screens
 
         public void Draw(SpriteBatch spriteBatch)
         {
-            // spriteBatch.Draw(null, objects[1].Rectangle, Color.Violet);
-            //   spriteBatch.Draw(Backroud, new Rectangle(0, 0, graphicsDevice.PreferredBackBufferWidth, graphicsDevice.PreferredBackBufferHeight),Color.White);
             backround.Draw(spriteBatch);
             foreach (MenuObject obj in objects)
             {
                 obj.Draw(spriteBatch);
             }
         }
-
     }
 
 }

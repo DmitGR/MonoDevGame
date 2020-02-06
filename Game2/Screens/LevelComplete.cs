@@ -1,5 +1,5 @@
-﻿using Game2.GameClasses;
-using Game2.MenuComponents;
+﻿using RGR.GameClasses;
+using RGR.MenuComponents;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Content;
@@ -8,7 +8,7 @@ using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 using System.Collections.Generic;
 
-namespace Game2.Screens
+namespace RGR.Screens
 {
     class LevelComplete
     {
@@ -21,7 +21,7 @@ namespace Game2.Screens
         KeyboardState state;
         KeyboardState oldstate;
         GraphicsDeviceManager graphicsDevice;
-        SoundEffect select, push, back,complete;
+        SoundEffect select, push, back;
         bool CanChange;
         int FinalScore;
 
@@ -40,7 +40,6 @@ namespace Game2.Screens
             select = Content.Load<SoundEffect>("Sounds/MenuSelect");
             push = Content.Load<SoundEffect>("Sounds/MenuPush");
             back = Content.Load<SoundEffect>("Sounds/MenuBack");
-            complete = Content.Load<SoundEffect>("Sounds/LevelComplete");
             FinalScore = 0;
 
             size = new Vector2(graphicsDevice.PreferredBackBufferWidth / 16, graphicsDevice.PreferredBackBufferHeight / 16);
@@ -56,13 +55,13 @@ namespace Game2.Screens
             CanChange = true;
             SelecRect = new Rectangle((int)(center.X - size.X), (int)(center.Y - size.Y * 2), (int)size.X, (int)size.Y);
         }
+
         public MenuState.GameState Update(int Score)
         {
             state = Keyboard.GetState();
 
             foreach (MenuObject obj in objects)
             {
-
                 if (obj.Rectangle.Intersects(SelecRect))
                 {
                     obj.Selected = true;
@@ -82,7 +81,6 @@ namespace Game2.Screens
                 SelecRect.Y -= (int)size.Y;
             }
             
-
             if (SelecRect.Y >= objects[objects.Count - 1].Rectangle.Y)
                 SelecRect.Y = objects[objects.Count - 1].Rectangle.Y;
             if (SelecRect.Y <= objects[1].Rectangle.Y)
@@ -106,11 +104,9 @@ namespace Game2.Screens
             CanChange = true;
             if (FinalScore < Score)
             {
-                if( FinalScore==0 )
-                FinalScore += 10;
-                else if (Score - FinalScore < Score / 5)
-                    FinalScore += 5;
-                else FinalScore += 10;
+                if (Score - FinalScore < Score / 5)
+                    FinalScore += 10;
+                else FinalScore += 50;
             }
 
             objects[0].ObjString = "Score : " + FinalScore;
@@ -118,22 +114,13 @@ namespace Game2.Screens
             return MenuState.GameState.LevelComplete;
         }
 
-        public void PlaySound()
-        {
-            complete.Play();
-        }
-
         public void Draw(SpriteBatch spriteBatch)
         {
-            //  spriteBatch.Draw(backround, new Rectangle(0, 0, graphicsDevice.PreferredBackBufferWidth, graphicsDevice.PreferredBackBufferHeight), Color.White);
             backround.Draw(spriteBatch);
             foreach (MenuObject obj in objects)
             {
                 obj.Draw(spriteBatch);
             }
-
-
-
         }
 
     }

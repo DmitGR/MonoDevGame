@@ -1,5 +1,5 @@
-﻿using Game2.GameClasses;
-using Game2.MenuComponents;
+﻿using RGR.GameClasses;
+using RGR.MenuComponents;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Media;
@@ -8,7 +8,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using System.Collections.Generic;
 
-namespace Game2.Screens
+namespace RGR.Screens
 {
     public class MainMenu
     {
@@ -25,19 +25,15 @@ namespace Game2.Screens
         SoundEffect select, push, back;
         bool CanChange;
 
-        Scrolling test;
-        Scrolling test2;
-        Texture2D text;
-        Texture2D text2;
+        Scrolling scroll1;
+        Scrolling scroll2;
 
         Texture2D Circle;
-
 
         public GraphicsDeviceManager GraphicsDevice
         {
             set { graphicsDevice = value; }
         }
-
 
         public MainMenu(GraphicsDeviceManager graphicsDevice) {  this.graphicsDevice = graphicsDevice;  ; }
 
@@ -53,11 +49,10 @@ namespace Game2.Screens
 
             size = new Vector2(graphicsDevice.PreferredBackBufferWidth / 16, graphicsDevice.PreferredBackBufferHeight / 16);
             center = new Vector2(graphicsDevice.PreferredBackBufferWidth /2 , graphicsDevice.PreferredBackBufferHeight / 2);
-            text = Content.Load<Texture2D>("Textures/Backrounds/Backround1");
-            text2 = Content.Load<Texture2D>("Textures/Backrounds/Backround1");
-            test = new Scrolling (text, new Rectangle(0, 0, graphicsDevice.PreferredBackBufferWidth, graphicsDevice.PreferredBackBufferHeight));
-            test2 = new Scrolling(text2, new Rectangle(graphicsDevice.PreferredBackBufferWidth, 0 , graphicsDevice.PreferredBackBufferWidth, graphicsDevice.PreferredBackBufferHeight));
-            Circle = Content.Load<Texture2D>("Circle");
+
+            scroll1 = new Scrolling (Content.Load<Texture2D>("Textures/Backrounds/Backround1"), new Rectangle(0, 0, graphicsDevice.PreferredBackBufferWidth, graphicsDevice.PreferredBackBufferHeight));
+            scroll2 = new Scrolling(Content.Load<Texture2D>("Textures/Backrounds/Backround1"), new Rectangle(graphicsDevice.PreferredBackBufferWidth, 0 , graphicsDevice.PreferredBackBufferWidth, graphicsDevice.PreferredBackBufferHeight));
+            Circle = Content.Load<Texture2D>("Textures/Misc/Circle");
             CirlceRect = new Rectangle((int)(center.X - size.X*2) , (int)(center.Y - size.Y*4), 255, 250);
 
 
@@ -69,19 +64,18 @@ namespace Game2.Screens
             {
                 obj.Load(Content);
             }
-            //  objects[0].Selected = true;
             SelecRect = new Rectangle((int)(center.X - size.X), (int)(center.Y - size.Y * 3), (int)size.X, (int)size.Y);
             MediaPlayer.Play(MainMenuTheme);
         }
 
         public MenuState.GameState Update()
         {
-            if (test.Rect.Right <= 2)
-                test.Rect = new Rectangle(text.Width, 0, graphicsDevice.PreferredBackBufferWidth, graphicsDevice.PreferredBackBufferHeight);
-            else test.Update();
-            if (test2.Rect.Right <= 2)
-                test2.Rect = new Rectangle(text.Width, 0, graphicsDevice.PreferredBackBufferWidth, graphicsDevice.PreferredBackBufferHeight);
-            else test2.Update();
+            if (scroll1.Rect.Right <= 2)
+                scroll1.Rect = new Rectangle(graphicsDevice.PreferredBackBufferWidth, 0, graphicsDevice.PreferredBackBufferWidth, graphicsDevice.PreferredBackBufferHeight);
+            else scroll1.Update();
+            if (scroll2.Rect.Right <= 2)
+                scroll2.Rect = new Rectangle(graphicsDevice.PreferredBackBufferWidth, 0, graphicsDevice.PreferredBackBufferWidth, graphicsDevice.PreferredBackBufferHeight);
+            else scroll2.Update();
 
             state = Keyboard.GetState();
 
@@ -109,6 +103,7 @@ namespace Game2.Screens
                 SelecRect.Y -= (int)size.Y;
                 CanChange = false;
             }
+
             if (SelecRect.Y >= objects[2].Rectangle.Y)
                 SelecRect.Y = objects[2].Rectangle.Y;
             if (SelecRect.Y <= objects[0].Rectangle.Y)
@@ -145,9 +140,8 @@ namespace Game2.Screens
 
         public void Draw(SpriteBatch spriteBatch)
         {
-            test.Draw(spriteBatch);
-
-            test2.Draw(spriteBatch);
+            scroll1.Draw(spriteBatch);
+            scroll2.Draw(spriteBatch);
 
             spriteBatch.Draw(Circle, CirlceRect, new Color(0,0,0,100));
 
@@ -156,7 +150,6 @@ namespace Game2.Screens
                 obj.Draw(spriteBatch);
             }
         }
-
     }
 
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Game2.MenuComponents
+namespace RGR.MenuComponents
 {
     public static class MenuState
     {
@@ -13,7 +13,6 @@ namespace Game2.MenuComponents
             NewGame,
             Playing,
             Options,
-            LevelSelect,
             LevelComplete,
             MainMenu,
             GameOver,

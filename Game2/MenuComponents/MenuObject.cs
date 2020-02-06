@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Game2.MenuComponents
+namespace RGR.MenuComponents
 {
     class MenuObject
     {
@@ -48,7 +48,7 @@ namespace Game2.MenuComponents
         }
         public void Draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.DrawString(font, objString, position + new Vector2(1.0f, 1.0f), Color.Black, 0f, Vector2.Zero, 2f, SpriteEffects.None, 0f);
+            spriteBatch.DrawString(font, objString, position + new Vector2(2.0f, 2.0f), Color.Black, 0f, Vector2.Zero, 2f, SpriteEffects.None, 0f);
             spriteBatch.DrawString(font, objString, position, Color, 0f, Vector2.Zero, 2f, SpriteEffects.None, 0f);
 
         }

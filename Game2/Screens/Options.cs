@@ -1,5 +1,5 @@
-﻿using Game2.GameClasses;
-using Game2.MenuComponents;
+﻿using RGR.GameClasses;
+using RGR.MenuComponents;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Content;
@@ -12,7 +12,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Game2.Screens
+namespace RGR.Screens
 {
     public class Options
     {
@@ -61,7 +61,6 @@ namespace Game2.Screens
 
         public void Load(ContentManager Content)
         {
-          //  Back = Content.Load<Texture2D>("Textures/Backrounds/BackroundOptions");
             backround = new Backround(Content.Load<Texture2D>("Textures/Backrounds/BackroundOptions"), new Rectangle(0, 0, graphicsDevice.PreferredBackBufferWidth, graphicsDevice.PreferredBackBufferHeight));
             if (graphicsDevice.IsFullScreen)
                 ScreenMode = "FullScreen";
@@ -76,12 +75,12 @@ namespace Game2.Screens
             Vector2 center = new Vector2(graphicsDevice.PreferredBackBufferWidth / 2, graphicsDevice.PreferredBackBufferHeight / 2);
             objects.Add(new MenuObject(new Rectangle((int)(center.X - size.X * 2), (int)(center.Y+size.Y*2- size.Y * 5), (int)size.X, (int)size.Y), "Music"));
             objects.Add(new MenuObject(new Rectangle((int)(center.X - size.X * 2), (int)(center.Y+size.Y*2- size.Y * 4), (int)size.X, (int)size.Y), "ScreenMode"));
-            objects.Add(new MenuObject(new Rectangle((int)(center.X - size.X * 2), (int)(center.Y+size.Y*2- size.Y * 3), (int)size.X, (int)size.Y), "level"));
+            objects.Add(new MenuObject(new Rectangle((int)(center.X - size.X * 2), (int)(center.Y+size.Y*2- size.Y * 3), (int)size.X, (int)size.Y), "Level"));
             objects.Add(new MenuObject(new Rectangle((int)(center.X - size.X * 2), (int)(center.Y+size.Y*2- size.Y * 2), (int)size.X, (int)size.Y), "Health"));
             objects.Add(new MenuObject(new Rectangle((int)(center.X - size.X * 2), (int)(center.Y+size.Y*2- size.Y * 1), (int)size.X, (int)size.Y), "Back to Menu"));
 
-            CanChange = false;
             //Default
+            CanChange = false;
             level = 1;
             healthPoint = 3;
 
@@ -132,6 +131,13 @@ namespace Game2.Screens
                 CanChange = false;
             }
 
+            if (state.IsKeyDown(Keys.Escape) && oldstate != state && CanChange)
+            {
+                back.Play();
+                 CanChange = false;
+                return MenuState.GameState.MainMenu;
+            }
+
             if (SelecRect.Y >= objects[objects.Count - 1].Rectangle.Y)
                 SelecRect.Y = objects[objects.Count - 1].Rectangle.Y;
             if (SelecRect.Y <= objects[0].Rectangle.Y)
@@ -150,10 +156,9 @@ namespace Game2.Screens
                     if (MediaPlayer.Volume == 1f)
                         MediaPlayer.Volume -= 0.09f;
                     else
-                        MediaPlayer.Volume -= 0.1f;
-                    
-                    
+                        MediaPlayer.Volume -= 0.1f;         
                 }
+
                 CanChange = false;
                 subObjects[0].ObjString = ((int)(MediaPlayer.Volume * 100)).ToString() + " % ";
                 return MenuState.GameState.Options;
@@ -237,6 +242,7 @@ namespace Game2.Screens
         {
             return level;
         }
+
         public int GetHealthPoint()
         {
             return healthPoint;
@@ -244,7 +250,6 @@ namespace Game2.Screens
 
         public void Draw(SpriteBatch spriteBatch)
         {
-            // spriteBatch.Draw(Back, new Rectangle(0, 0, graphicsDevice.PreferredBackBufferWidth, graphicsDevice.PreferredBackBufferHeight), Color.White);
             backround.Draw(spriteBatch);
             foreach (MenuObject obj in objects)
             {
@@ -254,10 +259,7 @@ namespace Game2.Screens
             {
                 SubObj.Draw(spriteBatch);
             }
-
-
         }
-
     }
 
 }

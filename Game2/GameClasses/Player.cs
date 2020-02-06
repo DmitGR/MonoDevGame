@@ -3,49 +3,43 @@ using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System;
 
-namespace Game2.GameClasses
+namespace RGR.GameClasses
 {
-    class Player
+    class Player : GameObject
     {
+        #region FieldsAndProps
 
-        AnimationSprite animationSprite;
-        AnimationSprite effectSprite;
+        AnimationSprite animationSprite , armorSprite, splashSprite;
 
-        Animation run, idle, jump, attack, death, damaged, jumpAttack, sit, sitAttack, fall, armor;
+        Animation run, idle, jump, attack, death, damaged, jumpAttack, sit, sitAttack, fall, armor, splash;
+        SoundEffect sword, fly, die, potionActiv, splashAttack;
+        public SoundEffect armorDamage, splashDamage;
 
-        Texture2D texture;
+        public Vector2 velocity;
 
-        Animation test;
-
-        SoundEffect sword,armorDamage;
-         
-        Vector2 velocity;
-        Rectangle rectangle;
-        KeyboardState state;
-        KeyboardState oldState;
-
-
-        public Rectangle Rectangle { get {return rectangle; }  }
+        public Rectangle Rectangle { get { return rectangle; } }
+        Rectangle collisionArea;
+        public Rectangle CollisionArea { get { return collisionArea; } private set { collisionArea = value; } }
 
         bool LookLeftSide;
-        bool hasJumped = false;
-        bool CanJump = true;
-        bool hasAttack = false;
+        public bool hasJumped = false;
+        public bool CanJump = true;
+        public bool hasAttack = false;
 
         public bool GetArmored { get; set; }
-        private bool armored;
+        public bool armored;
 
-        bool CanAttack =true;
-        float timerForAttack;
-        float timerForSit;
-        float timerForDamage;
-        float timerForArmor;
-        Rectangle damageArea;
-        bool hasDamaged = false;
-        public bool HasDamaged { get { return hasDamaged; }set { hasDamaged = value; } }
+        bool CanAttack = true;
+        public float timerForAttack;
+        public float timerForSit;
+        public float timerForArmor;
+        public Rectangle damageArea;
+        bool hasDamaged;
+        public bool HasDamaged { get { return hasDamaged; } set { hasDamaged = value; } }
         bool isSit;
-        bool wasSit = false;
+        public bool wasSit = false;
 
         HealthBar health;
         public HealthBar Health { get { return health; } set { health = value; } }
@@ -53,22 +47,41 @@ namespace Game2.GameClasses
         ArmorHud armorHud;
         public ArmorHud ArmorHud { get { return armorHud; } set { armorHud = value; } }
 
-        Vector2 position;
-        public Vector2 Position
-        {
-            get { return position; }
-        }
+        SplashHud splashHud;
+        public SplashHud SplashHud { get { return splashHud; } set { splashHud = value; } }
 
-        Vector2 checkpoint;
-        private bool attacksound =true;
+        public Vector2 Position { get { return position; } }
 
+        public Vector2 checkpoint;
+        private bool attacksound = true;
+        private bool flysound = true;
+        private Vector2 splashPos;
+        public bool HasSplash;
+        private Vector2 splashStartPos;
+        public Rectangle splashRect;
+        private bool splashRight;
+
+
+        const float MaxSplashDistance = 500f;
+        const float Gravity = 0.4f;
+        const float MaxVelocity = 9f;
+        const float sitTime = 1.5f;
+        const float FullSplash = 600f;
+        const float armorPerSecond = 4f;
+        const float MoveForce = 0.33f;
+        const float attackTime = 15f;
+        const float JumpForce = 9f;
+        const int CollisionDist = 2;
+        const int CollisionBonds = 3;
+        const float drawLayer = 0.3f;
+
+        #endregion
 
         public Player(Vector2 Start) { checkpoint = position = Start; }
 
-        public void Load(ContentManager Content)
+        public override void Load(ContentManager Content)
         {
 
-            texture = Content.Load<Texture2D>("test");
 
             idle = new Animation(Content.Load<Texture2D>("Textures/Hero/idle"), 46, 0.1f, true);
             jump = new Animation(Content.Load<Texture2D>("Textures/Hero/jump"), 50, 0.2f, true);
@@ -82,12 +95,21 @@ namespace Game2.GameClasses
             sitAttack = new Animation(Content.Load<Texture2D>("Textures/Hero/sitAttack"), 64, 0.09f, false);
             sword = Content.Load<SoundEffect>("Sounds/sword");
             armorDamage = Content.Load<SoundEffect>("Sounds/armorDamage");
-            //   heal = new Animation(Content.Load<Texture2D>("Textures/Hero/sitAttack"), 64, 0.09f, false);
-
-            armor = new Animation(Content.Load<Texture2D>("armor2"), 64, 0.1f, true);
+            fly = Content.Load<SoundEffect>("Sounds/fly");
+            die = Content.Load<SoundEffect>("Sounds/die");
+            armor = new Animation(Content.Load<Texture2D>("Textures/Misc/armor"), 64, 0.1f, true);
+            splash = new Animation(Content.Load<Texture2D>("Textures/Misc/splash"), 33, 0.12f, true);
+            potionActiv = Content.Load<SoundEffect>("Sounds/potionActivated");
+            splashDamage = Content.Load<SoundEffect>("Sounds/splashDamage");
+            splashAttack = Content.Load<SoundEffect>("Sounds/splash");
 
             timerForAttack = 0f;
             timerForSit = 0f;
+            splashPos =position;
+
+            Health.Load(Content);
+            ArmorHud.Load(Content);
+            SplashHud.Load(Content);
 
         }
 
@@ -102,14 +124,11 @@ namespace Game2.GameClasses
             else if (isSit && hasAttack)
                 return sitAttack;
             else if (hasAttack)
-            {
                 return attack;
-            }
-            else if (velocity.Y > 8 && !hasJumped)
+            else if (velocity.Y > MaxVelocity && !hasJumped)
                 return fall;
             else if (velocity.X != 0)
             {
-                //isSit = false;
                 wasSit = false;
                 return run;
             }
@@ -121,22 +140,31 @@ namespace Game2.GameClasses
 
         public Rectangle CurrentRectangle()
         {
-
-            if (hasJumped) 
-                return  new Rectangle((int)Position.X, (int)Position.Y + idle.FrameHeight / 7, idle.FrameWidth, idle.FrameHeight);
-            else if(isSit)
-                return new Rectangle((int)Position.X, (int)Position.Y , idle.FrameWidth, sit.FrameHeight);
-            else return new Rectangle((int)Position.X, (int)Position.Y, idle.FrameWidth, idle.FrameHeight );
+            if (hasJumped)
+            {
+                return new Rectangle((int)Position.X, (int)Position.Y /*+ idle.FrameHeight / 7*/, idle.FrameWidth, idle.FrameHeight);
+            }
+            else if (isSit)
+                return new Rectangle((int)Position.X, (int)Position.Y, idle.FrameWidth, sit.FrameHeight);
+            else if (velocity.Y > MaxVelocity && !hasJumped)
+                return new Rectangle((int)Position.X + idle.FrameWidth/4, (int)Position.Y, idle.FrameWidth/2, idle.FrameHeight);
+            else return new Rectangle((int)Position.X, (int)Position.Y, idle.FrameWidth, idle.FrameHeight);
         }
 
         public bool PlayAnimation()
         {
-            if (armored)
+            if (armored && !HasSplash)
             {
-                effectSprite.PlayAnimation(armor);
+                armorSprite.PlayAnimation(armor);
                 return true;
             }
-            
+
+            if (HasSplash)
+            {
+                splashSprite.PlayAnimation(splash);
+                return true;
+            }
+
             else return false;
 
         }
@@ -150,13 +178,23 @@ namespace Game2.GameClasses
 
             }
             else if (!hasAttack) attacksound = true;
+
+            if (hasJumped && CanJump && flysound)
+            {
+                flysound = false;
+                fly.Play();
+            }
+            else if (!hasJumped) flysound = true;
+
+            if (hasDamaged)
+                die.Play();
         }
 
         void ArmorUpdate(GameTime gameTime)
         {
 
             if (GetArmored)
-                timerForArmor =(float)gameTime.ElapsedGameTime.Milliseconds * 32;
+                timerForArmor = (float)gameTime.ElapsedGameTime.Milliseconds * 32;
 
             if (timerForArmor > 0)
             {
@@ -167,80 +205,66 @@ namespace Game2.GameClasses
             }
             if (timerForArmor == 0)
                 armored = false;
-
-            
         }
 
-        public void Update(GameTime gameTime)
+        #region Control
+        public void WalkLeft(GameTime gameTime)
         {
-            position += velocity;
-            rectangle = CurrentRectangle();
-
-            Input(gameTime);
-            PlaySounds();
-            ArmorUpdate(gameTime);
-
-            if (velocity.Y < 9)
-                velocity.Y += 0.4f;
-
-
-
-
-            if (LookLeftSide && timerForAttack > 0)
-                damageArea = new Rectangle(CurrentRectangle().Left - CurrentRectangle().Width, rectangle.Y, CurrentRectangle().Width*2, CurrentRectangle().Height / 2);
-            else if(!LookLeftSide && timerForAttack > 0)
-                damageArea = new Rectangle(CurrentRectangle().Left , rectangle.Y, CurrentRectangle().Width*2, CurrentRectangle().Height / 2);
-
-            animationSprite.PlayAnimation(CurrentAmimation());
-        }
-
-        public void Input(GameTime gameTime)
-        {
-            
-            state = Keyboard.GetState();
-
-            if (Keyboard.GetState().IsKeyDown(Keys.D) && !isSit && timerForSit <=0 )
-            {
-                LookLeftSide = false;
-                velocity.X = (float)gameTime.ElapsedGameTime.TotalMilliseconds / 3;
-                wasSit = true;
-
-            }
-            else if (Keyboard.GetState().IsKeyDown(Keys.A) && !isSit && timerForSit <= 0)
+            if (!isSit && timerForSit <= 0)
             {
                 LookLeftSide = true;
-                velocity.X = -(float)gameTime.ElapsedGameTime.TotalMilliseconds / 3;
+                velocity.X = -(float)gameTime.ElapsedGameTime.TotalMilliseconds * MoveForce;
                 wasSit = true;
             }
-            else velocity.X = 0f;
+        }
 
-            if (Keyboard.GetState().IsKeyDown(Keys.W))
+        public void WalkRight(GameTime gameTime)
+        {
+            if (!isSit && timerForSit <= 0)
             {
-                velocity.Y = -(float)gameTime.ElapsedGameTime.TotalMilliseconds / 3;
+                LookLeftSide = false;
+                velocity.X = (float)gameTime.ElapsedGameTime.TotalMilliseconds * MoveForce;
+                wasSit = true;
+
             }
-            else if (Keyboard.GetState().IsKeyDown(Keys.S) && velocity.X == 0)
+        }
+
+        public void Jump()
+        {
+            if (!hasJumped && CanJump && !isSit)
+            {
+                CanJump = false;
+                position.Y -= Gravity;
+                velocity.Y = -MaxVelocity;
+                hasJumped = true;
+            }
+            else CanJump = true;
+        }
+
+        public void Sit()
+        {
+            if (velocity.X == 0 && !hasJumped)
             {
                 isSit = true;
                 wasSit = true;
-                timerForSit = 1.5f;
-
+                timerForSit = sitTime;
             }
-            else
-            {
-                timerForSit--;
-                isSit = false;
-                
-            }
+        }
 
-            if (Keyboard.GetState().IsKeyDown(Keys.R))
-                position = new Vector2(6000, 1084);
+        public void StandUp()
+        {
+            timerForSit--;
+            isSit = false;
+        }
 
-            if (Keyboard.GetState().IsKeyDown(Keys.J) && timerForAttack == 0f)
+        public void Attack()
+        {
+            if (timerForAttack == 0f)
             {
                 if (CanAttack)
                 {
                     hasAttack = true;
-                    timerForAttack = 15f;
+                    timerForAttack = attackTime;
                     CanAttack = false;
                 }
                 else hasAttack = false;
@@ -248,37 +272,82 @@ namespace Game2.GameClasses
                 if (timerForAttack > 0)
                     timerForAttack--;
             }
-            else
-            {
 
-                if (timerForAttack > 0)
-                    timerForAttack--;
-                else if (timerForAttack < 1f)
-                {
-                    hasAttack = false;
-                    if (Keyboard.GetState().IsKeyUp(Keys.J))
-                        CanAttack = true;
-                }
+            if (!HasSplash && splashHud.IsActiv)
+            {
+                HasSplash = true;
+                splashAttack.Play();
+                splashStartPos = splashPos = position;
+                if (LookLeftSide)
+                    splashRight = false;
+                else splashRight = true;
             }
+        }
 
-
-            if (Keyboard.GetState().IsKeyDown(Keys.F))
+        public void NonAttack()
+        {
+            if (timerForAttack > 0)
+                timerForAttack--;
+            else if (timerForAttack < 1f)
             {
-                rectangle.Y -= 25;
+                hasAttack = false;
+                if (Keyboard.GetState().IsKeyUp(Keys.J))
+                    CanAttack = true;
             }
+        }
 
-            if (Keyboard.GetState().IsKeyDown(Keys.Space) && !hasJumped && CanJump && !isSit)
+        public void AcivatePotion()
+        {
+            if (splashHud.IsPicked)
             {
-                CanJump = false;
-                position.Y -= 5f;
-                velocity.Y = -9f;
-                hasJumped = true;
+                splashHud.IsPicked = false;
+                potionActiv.Play();
+                splashHud.Points = FullSplash;
             }
-            else
-            {
+        }
+
+        public void Stand() { velocity.X = 0; }
+
+        public void ApplyGravity()
+        {
+            if (velocity.Y < MaxVelocity)
+                velocity.Y += Gravity;
+            if (velocity.Y == 0)
                 CanJump = true;
+        }
+
+        #endregion
+
+        public override void Update(GameTime gameTime)
+        {
+            ApplyGravity();
+            position += velocity;
+            rectangle = CurrentRectangle();
+            collisionArea = new Rectangle(rectangle.X - rectangle.Width, rectangle.Y - rectangle.Height, rectangle.Width * CollisionBonds, rectangle.Height * CollisionBonds);
+            PlaySounds();
+            ArmorUpdate(gameTime);
+
+
+            if (HasSplash)
+            {
+                splashRect = new Rectangle((int)splashPos.X, (int)splashPos.Y, splash.FrameWidth, splash.FrameHeight);
+                if (splashRight)
+                    splashPos.X += (float)gameTime.ElapsedGameTime.TotalMilliseconds / 2;
+                else
+                    splashPos.X -= (float)gameTime.ElapsedGameTime.TotalMilliseconds / 2;
             }
-            oldState = state;
+            if (splashPos.X >= splashStartPos.X + MaxSplashDistance || splashPos.X <= splashStartPos.X - MaxSplashDistance)
+            {
+                splashPos = Vector2.Zero;
+                HasSplash = false;
+            }
+
+            if (LookLeftSide && timerForAttack > 0)
+                damageArea = new Rectangle(CurrentRectangle().Left - CurrentRectangle().Width, rectangle.Y, CurrentRectangle().Width * 2, CurrentRectangle().Height / 2);
+            else if (!LookLeftSide && timerForAttack > 0)
+                damageArea = new Rectangle(CurrentRectangle().Left, rectangle.Y, CurrentRectangle().Width * 2, CurrentRectangle().Height / 2);
+
+            animationSprite.PlayAnimation(CurrentAmimation());
         }
 
         public Texture2D GetTexture()
@@ -291,136 +360,32 @@ namespace Game2.GameClasses
             if (Keyboard.GetState().IsKeyDown(Keys.G))
             {
                 position = mousePos;
-            }
-        }
-        public void Collision(Block block, int xOffset, int yOffset)
-        {
-            if (!block.Passable && !block.Damaged)
-            {
-                if (rectangle.Intersects(block.Rectangle) && wasSit && !hasJumped )
-                {
-                    rectangle.Y -= 2;
-                    position.X -= velocity.X;
-                }
-
-                if (rectangle.TouchTopOf(block.Rectangle))
-                {
-
-                    rectangle.Y = block.Rectangle.Y - rectangle.Height;
-                    position.Y = block.Rectangle.Y - rectangle.Height;
-
-                    if (CanJump)
-                        velocity.Y = 0f;
-                    hasJumped = false;
-                }
-                if (rectangle.TouchLeftOf(block.Rectangle))
-                {
-                    position.X = block.Rectangle.X - rectangle.Width - 2;
-                }
-                if (rectangle.TouchRightOf(block.Rectangle))
-                {
-                    position.X = block.Rectangle.X + block.Rectangle.Width + 2;
-                }
-                if (rectangle.TouchBottomOf(block.Rectangle))
-                {
-                    velocity.Y = 1f;
-                    if (velocity.Y <= 2f)
-                        velocity.Y += 0.2f;
-                }
-
-                if (position.X < 0)
-                    position.X = 0;
-                if (position.X+rectangle.Width >= xOffset)
-                    position.X = xOffset-rectangle.Width;
-                if (position.Y < 0)
-                    position.Y = 0;
-                if (position.Y > yOffset - rectangle.Width)
-                    position.Y = yOffset;      
-            }
-            else if (block.Damaged)
-            {
-               var temp = new Rectangle(block.Rectangle.X + block.Rectangle.Width / 4, block.Rectangle.Y + block.Rectangle.Height / 4, block.Rectangle.Width / 2, block.Rectangle.Height / 2);
-                if (rectangle.Intersects(temp))
-                {
-                    HasDamaged = true;
-                    timerForDamage = 5f;
-                    position = checkpoint;
-                    health.Points--;
-                    armorHud.Points = 0;
-                    timerForArmor = 0;
-                }
-                else if (timerForDamage <=0) hasDamaged = false;
-                if (timerForDamage >= 0)
-                    timerForDamage-=0.1f;
+                rectangle.X = (int)mousePos.X;
+                rectangle.Y = (int)mousePos.Y;
             }
         }
 
-        public void Collision(Enemy enemy , GameTime gameTime)
-        {
-
-            if (armored && rectangle.Intersects(enemy.Rectangle))
-            {
-               armorDamage.Play();
-                enemy.HealthPoint-=enemy.HealthPoint;
-
-            }
-            else if (rectangle.Intersects(enemy.Rectangle))
-            {
-                HasDamaged = true;
-                position = checkpoint;
-                timerForDamage = 1f;
-                health.Points--;
-
-            }
-            else if (timerForDamage <= 0) hasDamaged = false;
-            if (timerForDamage >= 0)
-                timerForDamage -= 0.1f;
-
-            if (hasAttack && enemy.timerForDamage <= 0f && enemy.Rectangle.Intersects(damageArea) && enemy.CanDamaged)
-            {
-                enemy.DamageSound.Play();
-                enemy.HealthPoint--;
-                enemy.CanDamaged = false;
-                enemy.timerForDamage = 20f;
-            }
-
-            if(!enemy.CanDamaged)
-            {
-                enemy.timerForDamage--;
-                if (enemy.timerForDamage <= 0f)
-                    enemy.CanDamaged = true;
-            }
-
-        }
-
-        public void Collision (CheckPoint checkPoint)
-        {
-            Rectangle rect = new Rectangle(checkPoint.Rectangle.Left + 10, checkPoint.Rectangle.Y, checkPoint.Rectangle.Width / 2, checkPoint.Rectangle.Height);
-            if (rectangle.Intersects(rect) && !checkPoint.IsUsed)
-            {
-                checkPoint.IsUsed = true;
-                checkpoint = checkPoint.Position;
-                checkPoint.PlaySound();
-            }
-
-        }
-
-
-        public void Draw(GameTime gameTime , SpriteBatch spriteBatch)
+        public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {
             SpriteEffects flip = SpriteEffects.None;
             if (velocity.X > 0 || !LookLeftSide)
                 flip = SpriteEffects.None;
             else if (velocity.X < 0 || LookLeftSide)
                 flip = SpriteEffects.FlipHorizontally;
-            animationSprite.Draw(gameTime, spriteBatch, Position, flip);
+            animationSprite.Draw(gameTime, spriteBatch, Position, flip, drawLayer);
+
             if (PlayAnimation())
-                effectSprite.Draw(gameTime, spriteBatch, Position, SpriteEffects.None);
-            // spriteBatch.Draw(texture, temp, Color.Green);
-            if (hasAttack)
-          //  spriteBatch.Draw(texture, damageArea, Color.White);
-            if(hasDamaged)
-            spriteBatch.Draw(damaged.Texture, rectangle, Color.White);
+            {
+                if (HasSplash)
+                {
+                    if (splashRight)
+                        splashSprite.Draw(gameTime, spriteBatch, splashPos, SpriteEffects.None, drawLayer);
+                    else if (!splashRight)
+                        splashSprite.Draw(gameTime, spriteBatch, splashPos, SpriteEffects.FlipHorizontally, drawLayer);
+                }
+                if (armored)
+                    armorSprite.Draw(gameTime, spriteBatch, Position, flip, drawLayer);
+            }
         }
     }
 }

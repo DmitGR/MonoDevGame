@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RGR.Control" Collapsed="true">
+    <Position X="28" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAEAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>GameLogic\Control.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGR.Logic" Collapsed="true">
+    <Position X="26.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAoAgAAEAAEAggBAACgAAAAABAAAABAAAAIAAQIAA=</HashCode>
+      <FileName>GameLogic\Logic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGR.Main" Collapsed="true">
+    <Position X="24.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CEQAEFAAQmAACwUAAAQAgAQgCABAABgBBIAAIGAwIIQ=</HashCode>
+      <FileName>Main.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGR.Program" Collapsed="true">
+    <Position X="26.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGR.GameClasses.Animation" Collapsed="true">
+    <Position X="22.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAARBACAEAgAAAAIAIAAAACA=</HashCode>
+      <FileName>GameClasses\Animation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGR.GameClasses.ArmorHud" Collapsed="true">
+    <Position X="23" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAAAAAggAAAAAAAAAAAAAkAoAAAAAAAEgAAAA=</HashCode>
+      <FileName>GameClasses\ArmorHud.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGR.GameClasses.Backround" Collapsed="true">
+    <Position X="28.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAIAAAACAAAgAAAAIAAAAAAAA=</HashCode>
+      <FileName>GameClasses\Backround.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGR.GameClasses.Scrolling" Collapsed="true">
+    <Position X="28.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameClasses\Backround.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGR.GameClasses.Block" Collapsed="true">
+    <Position X="9.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAQAAAAgAAAAAAAAAAAAAgAggAAAAIAAAAAAA=</HashCode>
+      <FileName>GameClasses\Block.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGR.GameClasses.Camera" Collapsed="true">
+    <Position X="24.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAAAAAAAAAAAAABAAAAAQAAAAEAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>GameClasses\Camera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGR.GameClasses.CheckPoint" Collapsed="true">
+    <Position X="26.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAgAAAAgAAQgAgAAAAgIgAAAAkAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>GameClasses\CheckPoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGR.GameClasses.Enemy" Collapsed="true">
+    <Position X="15.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQaAACAAQICIgkgAAICAgCAAQACoAwAAAAQAgAEAAAA=</HashCode>
+      <FileName>GameClasses\Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGR.GameClasses.HealthBar" Collapsed="true">
+    <Position X="26.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgACAAAAAggAAAAAAAACAAAAgAgAAAAAAAAgAAAA=</HashCode>
+      <FileName>GameClasses\HealthBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGR.GameClasses.Item" Collapsed="true">
+    <Position X="6.25" Y="1.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAAAAkAiAIAAAgCAAAAAA=</HashCode>
+      <FileName>GameClasses\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGR.GameClasses.Map" Collapsed="true">
+    <Position X="21" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAGAgAEBiAADgQARAgAAEAAQAAAAEAAAAAAAEAABAI=</HashCode>
+      <FileName>GameClasses\Map.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGR.GameClasses.Player" Collapsed="true">
+    <Position X="28.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IUwDqhAGEiCMUiQgJR4GoCQYIKi6UQuABAdgIFAQAWg=</HashCode>
+      <FileName>GameClasses\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGR.GameClasses.RectangleHelper" Collapsed="true">
+    <Position X="28" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAABAAAAAAAAAAAAIAAAAAIAIBA=</HashCode>
+      <FileName>GameClasses\RectangleHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGR.GameClasses.Splash" Collapsed="true">
+    <Position X="26.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAgAAAEIAEAiAAABAAAAAAAAAgEAAAAAoAAAAAAAA=</HashCode>
+      <FileName>GameClasses\Splash.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGR.GameClasses.SplashHud" Collapsed="true">
+    <Position X="23" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AA4AgAAAACAAggAAAAAAAAAAAAAkAgAAAAAgAAAAAAA=</HashCode>
+      <FileName>GameClasses\SplashHud.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGR.GameClasses.GameObject" Collapsed="true">
+    <Position X="25.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAAAAAAgAAAAAAICAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameLogic\GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGR.GameObjects.Blocks.Exit" Collapsed="true">
+    <Position X="10.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Blocks\Exit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGR.GameObjects.Blocks.ImpassableBlock" Collapsed="true">
+    <Position X="8.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Blocks\ImpassableBlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGR.GameObjects.Blocks.PassableBlock" Collapsed="true">
+    <Position X="8.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Blocks\PassableBlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGR.GameObjects.Blocks.SpikeBlock" Collapsed="true">
+    <Position X="10.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Blocks\SpikeBlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGR.GameObjects.Enemies.Bat" Collapsed="true">
+    <Position X="13" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Enemies\Bat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGR.GameObjects.Enemies.Monkey" Collapsed="true">
+    <Position X="13" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Enemies\Monkey.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGR.GameObjects.Enemies.Mud" Collapsed="true">
+    <Position X="15.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Enemies\Mud.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGR.GameObjects.Enemies.RedSkeleton" Collapsed="true">
+    <Position X="17.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Enemies\RedSkeleton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGR.GameObjects.Enemies.Raven" Collapsed="true">
+    <Position X="17.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Enemies\Reven.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGR.GameObjects.Enemies.Smoke" Collapsed="true">
+    <Position X="17.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Enemies\Smoke.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGR.GameObjects.Enemies.Wolf" Collapsed="true">
+    <Position X="13" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Enemies\Wolf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGR.MenuComponents.MenuObject" Collapsed="true">
+    <Position X="22.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAgAAAAAAAAgAAAAAAICAAAAAiAAAgAgAAgAAAAAI=</HashCode>
+      <FileName>MenuComponents\MenuObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGR.MenuComponents.MenuState">
+    <Position X="21" Y="1" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="RGR.MenuComponents.MenuState.GameState">
+        <TypeIdentifier>
+          <NewMemberFileName>MenuComponents\MenuState.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MenuComponents\MenuState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGR.Screens.GameOver" Collapsed="true">
+    <Position X="24.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgEEAAAAAAgAIAKIAAAAAAQAAAAREAIQMAAAAIMA=</HashCode>
+      <FileName>Screens\GameOver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGR.Screens.LevelComplete" Collapsed="true">
+    <Position X="28" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAEAAgAAAgAIAIAAAAAAAwAAAAREAAQMAAAAAEA=</HashCode>
+      <FileName>Screens\LevelComplete.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGR.Screens.MainMenu" Collapsed="true">
+    <Position X="21" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAgAEAAAAAAgAIAIAAAEgAAQgAAAREAAQMQAAAAEA=</HashCode>
+      <FileName>Screens\MainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGR.Screens.Options" Collapsed="true">
+    <Position X="22.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAEAQgACAkAIAIAAAAABQQEQAIRFAAQMAAAAAEA=</HashCode>
+      <FileName>Screens\Options.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGR.Screens.Pause" Collapsed="true">
+    <Position X="26.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAEAAgAAAgAIAIAAAAgAAQAAAAREAAQMAAAAIEA=</HashCode>
+      <FileName>Screens\Pause.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGR.GameObjects.Items.Armor" Collapsed="true">
+    <Position X="4.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Items\Armor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGR.GameObjects.Items.Health" Collapsed="true">
+    <Position X="4.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Items\Health.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGR.GameObjects.Items.Jug" Collapsed="true">
+    <Position X="4.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Items\Jug.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGR.GameObjects.Items.Potion" Collapsed="true">
+    <Position X="4.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Items\Potion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="RGR.GameClasses.AnimationSprite" Collapsed="true">
+    <Position X="21" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAgAAAAMAAAABgAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>GameClasses\AnimationSprite.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

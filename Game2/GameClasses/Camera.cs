@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Game2.GameClasses
+namespace RGR.GameClasses
 {
     public class Camera
     {

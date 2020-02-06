@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Textures/Hero/attack.png</SourceFile>
+  <SourceFile>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Hero/attack.png</SourceFile>
   <SourceTime>2017-03-30T16:19:00+04:00</SourceTime>
-  <DestFile>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/bin/Windows/Textures/Hero/attack.xnb</DestFile>
-  <DestTime>2017-05-01T21:57:53.4124323+04:00</DestTime>
+  <DestFile>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/bin/Windows/Textures/Hero/attack.xnb</DestFile>
+  <DestTime>2017-05-12T19:08:29.0208238+04:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2016-03-30T10:36:08+04:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

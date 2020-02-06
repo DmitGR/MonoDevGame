@@ -9,10 +9,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Game2.GameClasses
+namespace RGR.GameClasses
 {
-    class Enemy
+    class Enemy : GameObject
     {
+
+        #region FieldsAndProps
+
         protected AnimationSprite animationSprite;
 
         protected Animation texture;
@@ -23,7 +26,7 @@ namespace Game2.GameClasses
         public int Score { get; protected set; }
 
 
-        SpriteFont font;
+       protected SpriteFont font;
 
        public bool CanDamaged = true;
        public  float timerForDamage;
@@ -31,13 +34,13 @@ namespace Game2.GameClasses
         public bool CanGetScore
         {
             get;
-            protected set; 
+            set; 
         }
 
         public bool IsAlive
         {
             get { return isAlive; }
-            set { isAlive = value; }
+            protected   set { isAlive = value; }
         }
 
         protected float speed;
@@ -48,62 +51,59 @@ namespace Game2.GameClasses
             set { if(value >= 0) healthPoint = value; }
         }
         Vector2 velocity;
-        protected Rectangle rectangle;
+
         public Rectangle Rectangle { get { return rectangle; } }
-        protected Vector2 position;
-        public Vector2 Position
-        {
-            get { return position; }
-            set { position = value; }
-        }
+        Rectangle collisionArea;
+        public Rectangle CollisionArea { get { return collisionArea; } private set { collisionArea = value; } }
 
-        protected SoundEffect damage;
-        public SoundEffect DamageSound { get { return damage; } }
 
-        public void Load(ContentManager Content)
-        {
-            font = Content.Load<SpriteFont>("spriteFont");
-            isAlive = true;
+        protected SoundEffect damageSound;
+        public SoundEffect DamageSound { get { return damageSound; } }
 
-        }
-        public void Update()
+        const float damageTimer = 20f;
+        public float DamageTimer { get { return damageTimer; } }
+
+        const float Gravity = 0.4f;
+        const float drawLayer = 0.3f;
+        #endregion
+
+        public override void Update()
         {
 
              if (isAlive)
             {
                 rectangle = new Rectangle((int)position.X, (int)position.Y, texture.FrameWidth, texture.FrameHeight);
+                collisionArea = new Rectangle(rectangle.X - rectangle.Width, rectangle.Y - rectangle.Height, rectangle.Width * 3, rectangle.Height * 3);
                 position += velocity;
                 if (RunToRight)
-                {
                     velocity.X = speed;
-
-                }
                 else
-                {
                     velocity.X = -speed;
-                }
                 if (!CanFly)
-                    velocity.Y += 0.4f;
+                    velocity.Y += Gravity;
 
                 animationSprite.PlayAnimation(texture);
             }
-            if (CanGetScore)
-                CanGetScore = false;
 
-            if (healthPoint <= 0 && rectangle!=Rectangle.Empty)
+            if (healthPoint <= 0 && rectangle != Rectangle.Empty && IsAlive)
             {
                 CanGetScore = true;
                 IsAlive = false;
                 rectangle = Rectangle.Empty;
+                collisionArea = Rectangle.Empty;
+                timerForDamage = 0f;
             }
 
+        }
+
+        public int GetScore(int Score)
+        {
+            return Score + this.Score;
         }
 
 
         public void Collision(Block block)
         {
-            if (!block.Passable)
-            {
                 if (rectangle.TouchTopOf(block.Rectangle))
                 {
                     rectangle.Y = block.Rectangle.Y - rectangle.Height;
@@ -120,67 +120,23 @@ namespace Game2.GameClasses
                     rectangle.X = block.Rectangle.Left - rectangle.Width;
                     RunToRight = false;
                 }
-
-            }
         }
 
 
-        public void Draw(GameTime gameTime,SpriteBatch spriteBatch)
+        public override void Draw(GameTime gameTime,SpriteBatch spriteBatch)
         {
             if (IsAlive)
             {
-              //  spriteBatch.DrawString(font,healthPoint.ToString() + " HP", new Vector2(rectangle.X, rectangle.Top - rectangle.Height/2)  ,Color.IndianRed);
-                spriteBatch.DrawString(font, healthPoint.ToString() + " HP", new Vector2(rectangle.X, rectangle.Top - rectangle.Height / 2) + new Vector2(1.0f, 1.0f), Color.Black);
-                spriteBatch.DrawString(font, healthPoint.ToString() + " HP", new Vector2(rectangle.X, rectangle.Top - rectangle.Height / 2), Color.IndianRed);
+                spriteBatch.DrawString(font, healthPoint.ToString() + " HP", new Vector2(rectangle.X, rectangle.Top - rectangle.Height / 2) + new Vector2(1.0f, 1.0f), Color.Black , 0f, Vector2.Zero, 1f, SpriteEffects.None, drawLayer-0.1f);
+                spriteBatch.DrawString(font, healthPoint.ToString() + " HP", new Vector2(rectangle.X, rectangle.Top - rectangle.Height / 2), Color.IndianRed, 0f, Vector2.Zero, 1f, SpriteEffects.None, drawLayer );
                 SpriteEffects flip = SpriteEffects.None;
                 if (velocity.X > 0)
                     flip = SpriteEffects.None;
                 else if (velocity.X < 0)
                     flip = SpriteEffects.FlipHorizontally;
-                animationSprite.Draw(gameTime, spriteBatch, Position, flip);
+                animationSprite.Draw(gameTime, spriteBatch, position, flip, drawLayer);
             }
         }
 
-    }
-    class Bat : Enemy
-    {
-        public Bat(Vector2 position, Animation texture, SoundEffect damage)
-        {
-            CanFly = true;
-            this.position = position;
-            this.texture = texture;
-            this.damage = damage;
-            speed = 2f;
-            healthPoint = 2;
-            Score = 50;
-        }
-    }
-
-    class Mud : Enemy
-    {
-        public Mud(Vector2 position, Animation texture, SoundEffect damage)
-        {
-            CanFly = false;
-            this.position = position;
-            this.texture = texture;
-            this.damage = damage;
-            speed = 1.2f;
-            healthPoint = 5;
-            Score = 200;
-        }
-    }
-
-    class Wolf : Enemy
-    {
-        public Wolf(Vector2 position, Animation texture, SoundEffect damage)
-        {
-            CanFly = false;
-            this.position = position;
-            this.texture = texture;
-            this.damage = damage;
-            speed = 3.2f;
-            healthPoint = 3;
-            Score = 300;
-        }
     }
 }

@@ -322,6 +322,15 @@ D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textur
 D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\ArmorHud.xnb
 D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\gameOver.xnb
 D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\healthbar.xnb
-D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Items\armor2.xnb
 D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Items\armor.xnb
 D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Level1.txt
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block5.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block6.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block7.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block8.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block9.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\SpikeBlock2.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\monkey.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\RedSkeleton.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\Smoke.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\raven.xnb

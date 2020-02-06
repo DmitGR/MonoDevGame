@@ -2,13 +2,36 @@
 using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
+using RGR.GameObjects.Blocks;
+using RGR.GameObjects.Enemies;
+using RGR.GameObjects.Items;
 using System.Collections.Generic;
 using System.IO;
 
-namespace Game2.GameClasses
+namespace RGR.GameClasses
 {
     class Map
     {
+        #region FieldsAndProps}
+
+        private List<GameObject> gameObjects = new List<GameObject>();
+        public List<GameObject> GameObjects
+        {
+            get { return gameObjects; }
+        }
+        private List<PassableBlock> backround = new List<PassableBlock>();
+        private int width, height;
+        public int Width { get { return width; } }
+        public int Height { get { return height; } }
+        Viewport viewport;
+        public Map(Viewport viewport) { this.viewport = viewport; }
+
+        private static ContentManager content;
+        public static ContentManager Content
+        {
+            protected get { return content; }
+            set { content = value; }
+        }
         private List<Block> blocks = new List<Block>();
         public List<Block> Blocks
         {
@@ -27,37 +50,21 @@ namespace Game2.GameClasses
             get { return items; }
         }
 
-        private List<SpikeBlock> spikes = new List<SpikeBlock>();
-        public List<SpikeBlock> Spikes
-        {
-            get { return spikes; }
-        }
-
         private List<CheckPoint> chekPoints = new List<CheckPoint>();
-        public List<CheckPoint> ChekPoints { get { return chekPoints; } }
-
-        private int width, height;
-        public int Width { get { return width; } }
-        public int Height { get { return height; } }
-        Viewport viewport;
-        public Map(Viewport viewport) { this.viewport = viewport; }
-
-        private static ContentManager content;
-        public static ContentManager Content
+        public List<CheckPoint> ChekPoints
         {
-            protected get { return content; }
-            set { content = value; }
+            get { return chekPoints; }
         }
 
-       public  Vector2 Start { get; private set; }
+        public  Vector2 Start { get; private set; }
 
-
+        #endregion
 
         public void Generate(int level, Vector2 size)
         {
-            if (!File.Exists("Content/level" + level + ".txt"))
+            if (!File.Exists("Content/Maps/level" + level + ".txt"))
                 level = 1;
-            string[] s = File.ReadAllLines("Content/level" + level + ".txt");
+            string[] s = File.ReadAllLines("Content/Maps/level" + level + ".txt");
             int x = 0, y = 0;
 
             foreach (string str in s)
@@ -66,69 +73,126 @@ namespace Game2.GameClasses
                 {
                     switch (c)
                     {
+                        //Start Position
                         case '@':
-                            blocks.Add(new PassableBlock(Content.Load<Texture2D>("Textures/Blocks/MiscBlock1"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
+                            backround.Add(new PassableBlock(Content.Load<Texture2D>("Textures/Blocks/MiscBlock1"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
                             Start = new Vector2(x, y);
                             break;
-                        case 'X':
-                            blocks.Add(new ImpassableBlock(Content.Load<Texture2D>("Textures/Blocks/Block1"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
+                        // Exit
+                        case 'E':
+                            gameObjects.Add(new PassableBlock(Content.Load<Texture2D>("Textures/Blocks/MiscBlock1"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
+                            gameObjects.Add(new Exit(Content.Load<Texture2D>("Textures/Blocks/exit"), new Rectangle(x, y, (int)size.X, (int)size.Y * 2)));
                             break;
-                        case 'Y':
-                            blocks.Add(new ImpassableBlock(Content.Load<Texture2D>("Textures/Blocks/Block2"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
+                        // Impassable Blocks
+                        case 'X':
+                            gameObjects.Add(new ImpassableBlock(Content.Load<Texture2D>("Textures/Blocks/Block1"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
+                            break;
+                        case 'V':
+                            gameObjects.Add(new ImpassableBlock(Content.Load<Texture2D>("Textures/Blocks/Block5"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
+                            break;
+                        case 'F':
+                            gameObjects.Add(new ImpassableBlock(Content.Load<Texture2D>("Textures/Blocks/Block8"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
                             break;
                         case 'x':
-                            blocks.Add(new ImpassableBlock(Content.Load<Texture2D>("Textures/Blocks/Block3"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
+                            gameObjects.Add(new ImpassableBlock(Content.Load<Texture2D>("Textures/Blocks/Block9"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
                             break;
-                        case 'z':
-                            blocks.Add(new PassableBlock(Content.Load<Texture2D>("test"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
+                        case 'Z':
+                            gameObjects.Add(new ImpassableBlock(Content.Load<Texture2D>("Textures/Blocks/Block7"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
+                            break;
+                        case 'Y':
+                            gameObjects.Add(new ImpassableBlock(Content.Load<Texture2D>("Textures/Blocks/Block2"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
+                            break;
+                        case 'D':
+                            gameObjects.Add(new ImpassableBlock(Content.Load<Texture2D>("Textures/Blocks/Block3"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
                             break;
                         case 'C':
-                            blocks.Add(new ImpassableBlock(Content.Load<Texture2D>("Textures/Blocks/Block4"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
+                            gameObjects.Add(new ImpassableBlock(Content.Load<Texture2D>("Textures/Blocks/Block4"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
                             break;
-                        case 'S':
-                            blocks.Add(new PassableBlock(Content.Load<Texture2D>("Textures/Blocks/MiscBlock1"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
-                            blocks.Add(new SpikeBlock(Content.Load<Texture2D>("Textures/Blocks/SpikeBlock1"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
-                            break;
-                        case '#':
-                            blocks.Add(new PassableBlock(Content.Load<Texture2D>("Textures/Blocks/MiscBlock1"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
-                            chekPoints.Add((new CheckPoint(new Vector2(x, y), Content)));
-                            break;
-                        case 'E':
-                            blocks.Add(new PassableBlock(Content.Load<Texture2D>("Textures/Blocks/MiscBlock1"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
-                            blocks.Add(new Exit(Content.Load<Texture2D>("Textures/Blocks/exit"), new Rectangle(x, y, (int)size.X, (int)size.Y*2)));
+                        // Passable Blocks
+                        case 'z':
+                            backround.Add(new PassableBlock(Content.Load<Texture2D>("test"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
                             break;
                         case '.':
-                            blocks.Add(new PassableBlock(Content.Load<Texture2D>("Textures/Blocks/MiscBlock1"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
+                            backround.Add(new PassableBlock(Content.Load<Texture2D>("Textures/Blocks/MiscBlock1"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
                             break;
                         case ',':
-                            blocks.Add(new PassableBlock(Content.Load<Texture2D>("Textures/Blocks/MiscBlock2"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
+                            backround.Add(new PassableBlock(Content.Load<Texture2D>("Textures/Blocks/MiscBlock2"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
                             break;
+                        case 'o':
+                            backround.Add(new PassableBlock(Content.Load<Texture2D>("Textures/Blocks/Block6"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
+                            break;
+                            // Tourch
                         case 't':
-                            blocks.Add(new PassableBlock(Content.Load<Texture2D>("Textures/Blocks/MiscTourch"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
+                            gameObjects.Add(new PassableBlock(Content.Load<Texture2D>("Textures/Blocks/MiscTourch"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
                             break;
+                            // Spike Blocks
+                        case 'S':
+                            backround.Add(new PassableBlock(Content.Load<Texture2D>("Textures/Blocks/MiscBlock1"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
+                            gameObjects.Add(new SpikeBlock(Content.Load<Texture2D>("Textures/Blocks/SpikeBlock1"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
+                            break;
+                        case 's':
+                            backround.Add(new PassableBlock(Content.Load<Texture2D>("Textures/Blocks/MiscBlock1"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
+                            gameObjects.Add(new SpikeBlock(Content.Load<Texture2D>("Textures/Blocks/SpikeBlock2"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
+                            break;
+                            // CheckPoint
+                        case '#':
+                            backround.Add(new PassableBlock(Content.Load<Texture2D>("Textures/Blocks/MiscBlock1"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
+                            gameObjects.Add((new CheckPoint(new Vector2(x, y), Content)));
+                            break;
+                            // Jug
                         case 'J':
-                            items.Add(new Jug(Content.Load<Texture2D>("Textures/Items/jug"), new Vector2(x, y), content.Load<SoundEffect>("Sounds/ItemPickUp")));
-                            blocks.Add(new PassableBlock(Content.Load<Texture2D>("Textures/Blocks/MiscBlock1"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
+                            gameObjects.Add(new Jug(new Vector2(x, y)));
+                            backround.Add(new PassableBlock(Content.Load<Texture2D>("Textures/Blocks/MiscBlock1"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
                             break;
+                            // Armor
                         case 'A':
-                            items.Add(new Armor(Content.Load<Texture2D>("Textures/Items/armor"), new Vector2(x, y), content.Load<SoundEffect>("Sounds/armorPickUp")));
-                            blocks.Add(new PassableBlock(Content.Load<Texture2D>("Textures/Blocks/MiscBlock1"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
+                            gameObjects.Add(new Armor(new Vector2(x, y)));
+                            backround.Add(new PassableBlock(Content.Load<Texture2D>("Textures/Blocks/MiscBlock1"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
                             break;
+                            // HealthPoint
                         case 'H':
-                            items.Add(new Health(Content.Load<Texture2D>("Textures/Items/health"), new Vector2(x, y), content.Load<SoundEffect>("Sounds/heartCollect")));
-                            blocks.Add(new PassableBlock(Content.Load<Texture2D>("Textures/Blocks/MiscBlock1"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
+                            gameObjects.Add(new Health(new Vector2(x, y)));
+                            backround.Add(new PassableBlock(Content.Load<Texture2D>("Textures/Blocks/MiscBlock1"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
                             break;
+                            // Potion
+                        case '*':
+                            gameObjects.Add(new Potion(new Vector2(x, y)));
+                            backround.Add(new PassableBlock(Content.Load<Texture2D>("Textures/Blocks/MiscBlock1"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
+                            break;
+                            // Bat
                         case 'B':
-                            enemys.Add(new Bat(new Vector2(x, y), (new Animation(Content.Load<Texture2D>("Textures/Enemys/bat"), 17, 0.05f, true)), Content.Load<SoundEffect>("Sounds/miscDamage1")));
-                            blocks.Add(new PassableBlock(Content.Load<Texture2D>("Textures/Blocks/MiscBlock1"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
+                            gameObjects.Add(new Bat(new Vector2(x, y)));
+                            backround.Add(new PassableBlock(Content.Load<Texture2D>("Textures/Blocks/MiscBlock1"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
                             break;
+                            // MudMan
                         case 'M':
-                            enemys.Add(new Mud(new Vector2(x, y), (new Animation(Content.Load<Texture2D>("Textures/Enemys/mud"), 28, 0.3f, true)), Content.Load<SoundEffect>("Sounds/miscDamage2")));
-                            blocks.Add(new PassableBlock(Content.Load<Texture2D>("Textures/Blocks/MiscBlock1"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
+                            gameObjects.Add(new Mud(new Vector2(x, y)));
+                            backround.Add(new PassableBlock(Content.Load<Texture2D>("Textures/Blocks/MiscBlock1"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
                             break;
+                            // Wolf
                         case 'W':
-                            enemys.Add(new Wolf(new Vector2(x, y), (new Animation(Content.Load<Texture2D>("Textures/Enemys/wolf"), 64, 0.14f, true)), Content.Load<SoundEffect>("Sounds/miscDamage3")));
-                            blocks.Add(new PassableBlock(Content.Load<Texture2D>("Textures/Blocks/MiscBlock1"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
+                            gameObjects.Add(new Wolf(new Vector2(x, y)));
+                            backround.Add(new PassableBlock(Content.Load<Texture2D>("Textures/Blocks/MiscBlock1"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
+                            break;
+                            // Raven
+                        case 'R':
+                            gameObjects.Add(new Raven(new Vector2(x, y)));
+                            backround.Add(new PassableBlock(Content.Load<Texture2D>("Textures/Blocks/MiscBlock1"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
+                            break;
+                            // Monke
+                        case 'm':
+                            gameObjects.Add(new Monkey(new Vector2(x, y)));
+                            backround.Add(new PassableBlock(Content.Load<Texture2D>("Textures/Blocks/MiscBlock1"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
+                            break;
+                            // Smoke
+                        case 'K':
+                            gameObjects.Add(new Smoke(new Vector2(x, y)));
+                            backround.Add(new PassableBlock(Content.Load<Texture2D>("Textures/Blocks/MiscBlock1"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
+                            break;
+                            // RedSkeleton
+                        case 'T':
+                            gameObjects.Add(new RedSkeleton(new Vector2(x, y)));
+                            backround.Add(new PassableBlock(Content.Load<Texture2D>("Textures/Blocks/MiscBlock1"), new Rectangle(x, y, (int)size.X, (int)size.Y)));
                             break;
                         default:
                             break;
@@ -143,50 +207,39 @@ namespace Game2.GameClasses
                 height = System.Math.Max(y, height);
 
             }
-            foreach (Enemy enemy in Enemys)
-            {
-                enemy.Load(Content);
-            }
 
+
+            foreach (GameObject obj in gameObjects)
+            {
+                obj.Load(Content);
+                if (obj is Block)
+                    blocks.Add((Block)obj);
+                else if (obj is CheckPoint)
+                    chekPoints.Add((CheckPoint)obj);
+                else if (obj is Enemy)
+                    Enemys.Add((Enemy)obj);
+                else if (obj is Item)
+                    items.Add((Item)obj);
+            }
         }
 
 
         public void Draw(SpriteBatch spriteBatch, GameTime gameTime, Vector2 center)
         {
 
-            foreach (Block block in Blocks)
-            {
-                if(block.Rectangle.X >= center.X - viewport.Width && block.Rectangle.X <= center.X + viewport.Width)
-                block.Draw(spriteBatch);
-            }
-            foreach (Item item in Items)
-            {
 
+            foreach (var item in backround)
+            {
                 item.Draw(spriteBatch);
             }
-            foreach (Enemy enemy in Enemys)
-            {
-                enemy.Draw(gameTime, spriteBatch);
-            }
 
-            foreach (CheckPoint checkPoint in ChekPoints)
-            {
-                checkPoint.Draw(gameTime, spriteBatch);
-
-            }
-        }
-
-        public void EnemyCollision(Vector2 center)
-        {
-            for (int i = 0; i < Enemys.Count; i++)
-            {
-                if (Enemys[i].Rectangle.X  >= center.X - viewport.Width && Enemys[i].Rectangle.X <= center.X + viewport.Width &&  Enemys[i].Rectangle.Y <= center.Y  + viewport.Height && Enemys[i].Rectangle.Y >= center.Y - viewport.Height)
-                for (int j = 0; j < Blocks.Count; j++)
-                    {
-                        if (Blocks[j].Rectangle.X >= center.X - viewport.Width && Blocks[j].Rectangle.X <= center.X + viewport.Width && Blocks[j].Rectangle.Y <= center.Y + viewport.Height && Blocks[j].Rectangle.Y >= center.Y - viewport.Height)
-                            Enemys[i].Collision(Blocks[j]);
+            foreach (GameObject obj in gameObjects)
+               if (obj.rectangle.X + obj.rectangle.Width >= center.X - viewport.Width / 2 && obj.rectangle.X - obj.rectangle.Width <= center.X + viewport.Width / 2
+                            && obj.rectangle.Y + obj.rectangle.Height >= center.Y - viewport.Height / 2 && obj.rectangle.Y - obj.rectangle.Height <= center.Y + viewport.Height / 2)
+               {
+                    obj.Draw(spriteBatch);
+                    obj.Draw(gameTime, spriteBatch);
                 }
-            }
         }
     }
 }

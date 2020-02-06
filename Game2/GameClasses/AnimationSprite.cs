@@ -2,7 +2,7 @@
 using Microsoft.Xna.Framework.Graphics;
 using System;
 
-namespace Game2.GameClasses
+namespace RGR.GameClasses
 {
     struct AnimationSprite
     {
@@ -35,14 +35,12 @@ namespace Game2.GameClasses
                 timer = 0;
             }
         }
-        public void Draw(GameTime gameTime,SpriteBatch spriteBatch,Vector2 position ,SpriteEffects spriteEffects)
+        public void Draw(GameTime gameTime,SpriteBatch spriteBatch,Vector2 position ,SpriteEffects spriteEffects, float layer)
         {
-            if (Animation == null)
-                throw new NotSupportedException("no animation");
 
             position = new Vector2((position.X + Animation.FrameWidth  ), (position.Y + Animation.FrameHeight + 1));
             timer += (float)gameTime.ElapsedGameTime.TotalSeconds;
-            while (timer >= animation.FrameTime)
+            if (timer >= animation.FrameTime)
             {
                 timer -= animation.FrameTime;
                 if (animation.IsLooping)
@@ -52,7 +50,7 @@ namespace Game2.GameClasses
             }
 
             Rectangle rect = new Rectangle(frameIndex * Animation.FrameWidth, 0, Animation.FrameWidth, Animation.FrameHeight);
-            spriteBatch.Draw(Animation.Texture, position, rect, Color.White, 0f, Origin, 1f, spriteEffects, 0f);
+            spriteBatch.Draw(Animation.Texture, position, rect, Color.White, 0f, Origin, 1f, spriteEffects, layer);
         }
     }
 }

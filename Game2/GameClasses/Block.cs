@@ -7,12 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Game2.GameClasses
+namespace RGR.GameClasses
 {
-    class Block
+    class Block : GameObject
     {
         protected Texture2D texture;
-        private Rectangle rectangle;
         public Rectangle Rectangle
         {
             get { return rectangle; }
@@ -29,49 +28,11 @@ namespace Game2.GameClasses
         protected bool damaged;
         public bool Damaged { get { return damaged; } }
 
-        public void Draw(SpriteBatch spriteBatch)
-        {
-            spriteBatch.Draw(texture, rectangle, Color.White);
-        }
-    }
-    class ImpassableBlock : Block
-    {
-        public ImpassableBlock(Texture2D texture,Rectangle rectangle)
-        {
-            this.texture = texture;
-            Rectangle = rectangle;
-            passable = false;
+        protected float drawLayer;
 
-        }
-    }
-    class PassableBlock : Block
-    {
-        public PassableBlock(Texture2D texture, Rectangle rectangle)
+        public override void Draw(SpriteBatch spriteBatch)
         {
-            this.texture = texture;
-            Rectangle = rectangle;
-            passable = true;
-
+            spriteBatch.Draw(texture, rectangle, texture.Bounds, Color.White, 0f, Vector2.Zero, SpriteEffects.None, drawLayer);
         }
     }
-    class SpikeBlock : Block
-    {
-        public SpikeBlock(Texture2D texture ,Rectangle rectangle)
-        {
-            this.texture = texture;
-            Rectangle = rectangle;
-            passable = false;
-            damaged = true;
-        }
-    }
-    class Exit : Block
-    {
-        public Exit(Texture2D texture, Rectangle rectangle)
-        {
-            this.texture = texture;
-            Rectangle = rectangle;
-            passable = true;
-        }
-    }
-
 }

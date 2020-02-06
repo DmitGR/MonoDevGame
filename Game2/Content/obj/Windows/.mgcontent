@@ -4,64 +4,85 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Textures/Items/armor.png</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/test.png</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Circle.png</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/healEffect.png</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Textures/Hero/attack.png</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Textures/Hero/damaged.png</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Textures/Hero/death.png</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Textures/Hero/fall.png</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Textures/Hero/idle.png</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Textures/Hero/jump.png</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Textures/Hero/jumpAttack.png</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Textures/Hero/sit.png</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Textures/Hero/sitAttack.png</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Textures/Hero/run.png</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Textures/Enemys/bat.png</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Textures/Enemys/wolf.png</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Textures/Enemys/mud.png</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Textures/Blocks/Block1.png</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Textures/Blocks/Block2.png</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Textures/Blocks/Block3.png</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Textures/Blocks/Block4.png</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Textures/Blocks/exit.png</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Textures/Blocks/MiscTourch.png</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Textures/Blocks/SpikeBlock1.png</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Textures/Blocks/MiscBlock1.png</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Textures/Blocks/MiscBlock2.png</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Textures/Items/checkpoint0.png</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Textures/Items/checkpoint1.png</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Textures/Items/jug.png</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Textures/Items/health.png</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Textures/Backrounds/Backround1.png</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Textures/Backrounds/Backround3.png</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Textures/Backrounds/BackroundOptions.png</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Textures/Backrounds/BackroundPause.png</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Textures/Backrounds/BackroundComplete.jpg</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Textures/Misc/gameOver.png</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Textures/Misc/healthbar.png</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Sounds/CheckPoinActivated.wav</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Sounds/GameTheme.mp3</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Sounds/heartCollect.wav</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Sounds/ItemPickUp.wav</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Sounds/LevelComplete.wav</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Sounds/MainMenuTheme.mp3</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Sounds/MenuBack.wav</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Sounds/MenuChoose.wav</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Sounds/MenuExit.wav</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Sounds/MenuPause.wav</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Sounds/MenuPush.wav</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Sounds/MenuSelect.wav</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Sounds/miscDamage2.mp3</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Sounds/miscDamage3.mp3</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Sounds/sword.wav</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Sounds/miscDamage1.mp3</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Armor.png</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/armor2.png</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Sounds/armorDamage.mp3</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Sounds/armorPickUp.wav</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Textures/Misc/ArmorHud.png</File>
-    <File>D:/IFBS/1 course/Semestr 2/Labs/Game2/Game2/Content/Textures/Items/armor2.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Misc/splashHud.jpg</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Sounds/GameTheme.mp3</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Sounds/heartCollect.wav</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Sounds/ItemPickUp.wav</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Sounds/LevelComplete.wav</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Sounds/MainMenuTheme.mp3</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Sounds/MenuBack.wav</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Sounds/MenuChoose.wav</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Sounds/MenuExit.wav</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Sounds/MenuPause.wav</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Sounds/MenuPush.wav</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Sounds/MenuSelect.wav</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Sounds/miscDamage2.mp3</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Sounds/miscDamage3.mp3</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Sounds/sword.wav</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Sounds/miscDamage1.mp3</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Sounds/armorDamage.mp3</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Sounds/armorPickUp.wav</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Sounds/armorOff.wav</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Sounds/fly.wav</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Sounds/miscDamage4.wav</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Sounds/gameOver.mp3</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Sounds/CheckPointActivated.wav</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Sounds/die.wav</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Sounds/potionActivated.mp3</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Sounds/potionOff.wav</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Sounds/potionPickUp.mp3</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Sounds/splash.mp3</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Sounds/splashDamage.mp3</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Hero/attack.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Hero/damaged.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Hero/death.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Hero/fall.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Hero/idle.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Hero/jump.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Hero/jumpAttack.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Hero/sit.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Hero/sitAttack.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Hero/run.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Enemys/bat.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Enemys/wolf.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Enemys/mud.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Blocks/Block1.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Blocks/Block2.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Blocks/Block3.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Blocks/Block4.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Blocks/exit.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Blocks/MiscTourch.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Blocks/SpikeBlock1.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Blocks/MiscBlock1.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Blocks/MiscBlock2.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Items/checkpoint0.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Items/checkpoint1.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Items/jug.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Items/health.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Backrounds/Backround1.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Backrounds/Backround3.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Backrounds/BackroundOptions.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Backrounds/BackroundPause.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Backrounds/BackroundComplete.jpg</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Misc/gameOver.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Misc/healthbar.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Misc/ArmorHud.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Items/armor.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Blocks/Block5.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Blocks/Block6.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Blocks/Block7.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Blocks/Block8.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Blocks/Block9.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Blocks/SpikeBlock2.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Enemys/monkey.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Enemys/RedSkeleton.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Enemys/Smoke.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Enemys/raven.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Backrounds/BackroundOver.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Misc/armor.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Misc/Circle.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Misc/test.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Misc/splash.png</File>
+    <File>D:/IFBS/1 course/Semestr 2/Labs/!! RGR/Game2/Content/Textures/Items/potion.png</File>
   </SourceFiles>
 </SourceFileCollection>

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Game2
+namespace RGR
 {
 #if WINDOWS || LINUX
     /// <summary>
