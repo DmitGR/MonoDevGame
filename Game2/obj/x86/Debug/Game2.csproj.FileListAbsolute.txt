@@ -1,0 +1,327 @@
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Game2.exe
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Game2.pdb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\MonoGame.Framework.dll
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\SharpDX.dll
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\SharpDX.XInput.dll
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\SharpDX.RawInput.dll
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\MonoGame.Framework.xml
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\SharpDX.xml
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\SharpDX.XInput.xml
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\SharpDX.RawInput.xml
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\obj\x86\Debug\Game2.csprojResolveAssemblyReference.cache
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\obj\x86\Debug\Game2.exe
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\obj\x86\Debug\Game2.pdb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Hud.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\obj\x86\Debug\Game2.exe
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\obj\x86\Debug\Game2.pdb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Hud.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Level1.txt
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Game2.exe
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Game2.pdb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\obj\x86\Debug\Game2.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\attack.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Backround.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\damaged.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\death.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\fly.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\idle.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\test.xnb
+G:\momogame\Game2\Game2\obj\x86\Debug\Game2.exe
+G:\momogame\Game2\Game2\obj\x86\Debug\Game2.pdb
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\Content\attack.png
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\Content\Backround.jpg
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\Content\Block1.png
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\Content\Block2.png
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\Content\damaged.png
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\Content\death.png
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\Content\fly.png
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\Content\Level1.txt
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\Content\run.png
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\Content\attack.xnb
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\Content\Back(begin).xnb
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\Content\Backround.xnb
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\Content\bat.xnb
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\Content\Block1.xnb
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\Content\Block2.xnb
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\Content\damaged.xnb
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\Content\death.xnb
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\Content\fly.xnb
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\Content\healthbar.xnb
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\Content\idle.xnb
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\Content\jug.xnb
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\Content\MiscBlock1.xnb
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\Content\MiscBlock2.xnb
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\Content\MiscTourch.xnb
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\Content\run.xnb
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\Content\test.xnb
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\Content\Hud.xnb
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\Game2.exe
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\Game2.pdb
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\MonoGame.Framework.dll
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\SharpDX.dll
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\SharpDX.XInput.dll
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\SharpDX.RawInput.dll
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\MonoGame.Framework.xml
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\SharpDX.xml
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\SharpDX.XInput.xml
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\SharpDX.RawInput.xml
+G:\momogame\Game2\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+G:\momogame\Game2\Game2\obj\x86\Debug\Game2.csprojResolveAssemblyReference.cache
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\attack.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Backround.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\damaged.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\death.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\test.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\BigBlock1.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Circle.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\idle.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\MenuPause.wav
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Level2.txt
+F:\Game2\Game2\obj\x86\Debug\Game2.exe
+F:\Game2\Game2\obj\x86\Debug\Game2.pdb
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\Level1.txt
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\Level2.txt
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\MenuPause.wav
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\attack.xnb
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\Back(begin).xnb
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\Backround.xnb
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\Backround1.xnb
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\Backround2.xnb
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\bat.xnb
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\BigBlock1.xnb
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\Block1.xnb
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\Block2.xnb
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\Block3.xnb
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\Block4.xnb
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\CheckPoinActivated.xnb
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\checkpoint0.xnb
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\checkpoint1.xnb
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\Circle.xnb
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\damaged.xnb
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\death.xnb
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\fly.xnb
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\GameTheme.wma
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\GameTheme.xnb
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\healthbar.xnb
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\idle.xnb
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\ItemPickUp.xnb
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\jug.xnb
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\jumpAttack.xnb
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\MainMenuTheme.wma
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\MainMenuTheme.xnb
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\MenuBack.xnb
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\MenuPause.xnb
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\MenuPush.xnb
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\MenuSelect.xnb
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\MiscBlock1.xnb
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\MiscBlock2.xnb
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\miscDamage.xnb
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\MiscTourch.xnb
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\run.xnb
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\sit.xnb
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\sitAttack.xnb
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\SpikeBlock1.xnb
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\sword.xnb
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\test.xnb
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\Walk.xnb
+F:\Game2\Game2\bin\Windows\x86\Debug\Content\Hud.xnb
+F:\Game2\Game2\bin\Windows\x86\Debug\Game2.exe
+F:\Game2\Game2\bin\Windows\x86\Debug\Game2.pdb
+F:\Game2\Game2\bin\Windows\x86\Debug\MonoGame.Framework.dll
+F:\Game2\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+F:\Game2\Game2\bin\Windows\x86\Debug\SharpDX.dll
+F:\Game2\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+F:\Game2\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+F:\Game2\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+F:\Game2\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+F:\Game2\Game2\bin\Windows\x86\Debug\SharpDX.XInput.dll
+F:\Game2\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+F:\Game2\Game2\bin\Windows\x86\Debug\MonoGame.Framework.xml
+F:\Game2\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+F:\Game2\Game2\bin\Windows\x86\Debug\SharpDX.xml
+F:\Game2\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+F:\Game2\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+F:\Game2\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+F:\Game2\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+F:\Game2\Game2\bin\Windows\x86\Debug\SharpDX.XInput.xml
+F:\Game2\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+F:\Game2\Game2\obj\x86\Debug\Game2.csprojResolveAssemblyReference.cache
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Walk.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\fall.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\jumpAttack.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\sit.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\sitAttack.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\sword.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\jump.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Level2.txt
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\MenuPause.wav
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\BigBlock1.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Circle.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\fall.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\jump.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\jumpAttack.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\sit.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\sitAttack.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\sword.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Walk.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\spriteFont.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\fly.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\spriteFont.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\healEffect.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\healEffect.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\attack.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\damaged.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\death.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\fall.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\idle.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\jump.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\jumpAttack.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\sit.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\sitAttack.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\run.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\bat.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\mud.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\wolf.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block1.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block2.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block3.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block4.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\exit.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\MiscTourch.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\SpikeBlock1.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\MiscBlock1.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\MiscBlock2.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Items\checkpoint0.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Items\checkpoint1.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Items\health.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Items\jug.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\Backround1.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\Backround3.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\BackroundOptions.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\BackroundPause.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\BackroundComplete.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\gameOver.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\healthbar.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\CheckPoinActivated.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\GameTheme.wma
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\GameTheme.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\heartCollect.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\ItemPickUp.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\LevelComplete.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\MainMenuTheme.wma
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\MainMenuTheme.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuBack.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuChoose.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuExit.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuPause.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuPush.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuSelect.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\miscDamage2.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\miscDamage3.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\sword.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\miscDamage1.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Armor.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\armor2.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\armorDamage.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\armorPickUp.xnb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\ArmorHud.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Armor.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\armor2.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\armorDamage.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\armorPickUp.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\CheckPoinActivated.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\GameTheme.wma
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\GameTheme.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\heartCollect.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\ItemPickUp.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\LevelComplete.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\MainMenuTheme.wma
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\MainMenuTheme.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuBack.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuChoose.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuExit.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuPause.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuPush.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\MenuSelect.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\miscDamage1.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\miscDamage2.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\miscDamage3.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Sounds\sword.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\Backround1.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\Backround3.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\BackroundComplete.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\BackroundOptions.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Backrounds\BackroundPause.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block1.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block2.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block3.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\Block4.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\exit.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\MiscBlock1.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\MiscBlock2.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\MiscTourch.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Blocks\SpikeBlock1.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\bat.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\mud.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Enemys\wolf.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\attack.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\damaged.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\death.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\fall.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\idle.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\jump.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\jumpAttack.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\run.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\sit.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Hero\sitAttack.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Items\checkpoint0.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Items\checkpoint1.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Items\health.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Items\jug.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\ArmorHud.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\gameOver.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Misc\healthbar.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Items\armor2.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Textures\Items\armor.xnb
+D:\IFBS\1 course\Semestr 2\Labs\Game2\Game2\bin\Windows\x86\Debug\Content\Level1.txt
